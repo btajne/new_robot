@@ -1,0 +1,62 @@
+[01m[K/home/aarambh/my_robot_ws/src/bumperbot_planning/src/a_star_planner.cpp:[m[K In member function ‘[01m[Kvirtual void bumperbot_planning::AStarPlanner::configure(const WeakPtr&, std::string, std::shared_ptr<tf2_ros::Buffer>, std::shared_ptr<nav2_costmap_2d::Costmap2DROS>)[m[K’:
+[01m[K/home/aarambh/my_robot_ws/src/bumperbot_planning/src/a_star_planner.cpp:18:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ksmooth_client_[m[K’ was not declared in this scope
+   18 |   [01;31m[Ksmooth_client_[m[K = rclcpp_action::create_client<nav2_msgs::action::SmoothPath>(node_, "smooth_path");
+      |   [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/aarambh/my_robot_ws/src/bumperbot_planning/src/a_star_planner.cpp:18:20:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp_action[m[K’ has not been declared
+   18 |   smooth_client_ = [01;31m[Krclcpp_action[m[K::create_client<nav2_msgs::action::SmoothPath>(node_, "smooth_path");
+      |                    [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/aarambh/my_robot_ws/src/bumperbot_planning/src/a_star_planner.cpp:18:60:[m[K [01;31m[Kerror: [m[K‘[01m[Knav2_msgs::action[m[K’ has not been declared
+   18 |   smooth_client_ = rclcpp_action::create_client<nav2_msgs::[01;31m[Kaction[m[K::SmoothPath>(node_, "smooth_path");
+      |                                                            [01;31m[K^~~~~~[m[K
+[01m[K/home/aarambh/my_robot_ws/src/bumperbot_planning/src/a_star_planner.cpp:18:80:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+   18 |   smooth_client_ = rclcpp_action::create_client<nav2_msgs::action::SmoothPath>([01;35m[Knode_[m[K, "smooth_path");
+      |                                                                                [01;35m[K^~~~~[m[K
+[01m[K/home/aarambh/my_robot_ws/src/bumperbot_planning/src/dijkstra_planner.cpp:[m[K In member function ‘[01m[Kvirtual void bumperbot_planning::DijkstraPlanner::configure(const WeakPtr&, std::string, std::shared_ptr<tf2_ros::Buffer>, std::shared_ptr<nav2_costmap_2d::Costmap2DROS>)[m[K’:
+[01m[K/home/aarambh/my_robot_ws/src/bumperbot_planning/src/dijkstra_planner.cpp:20:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ksmooth_client_[m[K’ was not declared in this scope
+   20 |   [01;31m[Ksmooth_client_[m[K = rclcpp_action::create_client<nav2_msgs::action::SmoothPath>(node_, "smooth_path");
+      |   [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/aarambh/my_robot_ws/src/bumperbot_planning/src/dijkstra_planner.cpp:20:20:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp_action[m[K’ has not been declared
+   20 |   smooth_client_ = [01;31m[Krclcpp_action[m[K::create_client<nav2_msgs::action::SmoothPath>(node_, "smooth_path");
+      |                    [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/aarambh/my_robot_ws/src/bumperbot_planning/src/dijkstra_planner.cpp:20:60:[m[K [01;31m[Kerror: [m[K‘[01m[Knav2_msgs::action[m[K’ has not been declared
+   20 |   smooth_client_ = rclcpp_action::create_client<nav2_msgs::[01;31m[Kaction[m[K::SmoothPath>(node_, "smooth_path");
+      |                                                            [01;31m[K^~~~~~[m[K
+[01m[K/home/aarambh/my_robot_ws/src/bumperbot_planning/src/dijkstra_planner.cpp:20:80:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+   20 |   smooth_client_ = rclcpp_action::create_client<nav2_msgs::action::SmoothPath>([01;35m[Knode_[m[K, "smooth_path");
+      |                                                                                [01;35m[K^~~~~[m[K
+[01m[K/home/aarambh/my_robot_ws/src/bumperbot_planning/src/a_star_planner.cpp:[m[K In member function ‘[01m[Kvirtual void bumperbot_planning::AStarPlanner::activate()[m[K’:
+[01m[K/home/aarambh/my_robot_ws/src/bumperbot_planning/src/a_star_planner.cpp:33:8:[m[K [01;31m[Kerror: [m[K‘[01m[Ksmooth_client_[m[K’ was not declared in this scope
+   33 |   if (![01;31m[Ksmooth_client_[m[K->wait_for_action_server(std::chrono::seconds(3))) {
+      |        [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/aarambh/my_robot_ws/src/bumperbot_planning/src/a_star_planner.cpp:[m[K At global scope:
+[01m[K/home/aarambh/my_robot_ws/src/bumperbot_planning/src/a_star_planner.cpp:45:21:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Knav_msgs::msg::Path bumperbot_planning::AStarPlanner::createPlan(const PoseStamped&, const PoseStamped&, std::function<bool()>)[m[K’
+   45 | nav_msgs::msg::Path [01;31m[KAStarPlanner[m[K::createPlan(
+      |                     [01;31m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/aarambh/my_robot_ws/src/bumperbot_planning/src/a_star_planner.cpp:3[m[K:
+[01m[K/home/aarambh/my_robot_ws/src/bumperbot_planning/include/bumperbot_planning/a_star_planner.hpp:49:23:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kvirtual nav_msgs::msg::Path bumperbot_planning::AStarPlanner::createPlan(const PoseStamped&, const PoseStamped&)[m[K’
+   49 |   nav_msgs::msg::Path [01;36m[KcreatePlan[m[K(
+      |                       [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/aarambh/my_robot_ws/src/bumperbot_planning/include/bumperbot_planning/a_star_planner.hpp:32:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass bumperbot_planning::AStarPlanner[m[K’ defined here
+   32 | class [01;36m[KAStarPlanner[m[K : public nav2_core::GlobalPlanner
+      |       [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/aarambh/my_robot_ws/src/bumperbot_planning/src/dijkstra_planner.cpp:[m[K In member function ‘[01m[Kvirtual void bumperbot_planning::DijkstraPlanner::activate()[m[K’:
+[01m[K/home/aarambh/my_robot_ws/src/bumperbot_planning/src/dijkstra_planner.cpp:35:8:[m[K [01;31m[Kerror: [m[K‘[01m[Ksmooth_client_[m[K’ was not declared in this scope
+   35 |   if (![01;31m[Ksmooth_client_[m[K->wait_for_action_server(std::chrono::seconds(3))) {
+      |        [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/aarambh/my_robot_ws/src/bumperbot_planning/src/dijkstra_planner.cpp:[m[K At global scope:
+[01m[K/home/aarambh/my_robot_ws/src/bumperbot_planning/src/dijkstra_planner.cpp:47:21:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Knav_msgs::msg::Path bumperbot_planning::DijkstraPlanner::createPlan(const PoseStamped&, const PoseStamped&, std::function<bool()>)[m[K’
+   47 | nav_msgs::msg::Path [01;31m[KDijkstraPlanner[m[K::createPlan(
+      |                     [01;31m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/aarambh/my_robot_ws/src/bumperbot_planning/src/dijkstra_planner.cpp:4[m[K:
+[01m[K/home/aarambh/my_robot_ws/src/bumperbot_planning/include/bumperbot_planning/dijkstra_planner.hpp:48:23:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kvirtual nav_msgs::msg::Path bumperbot_planning::DijkstraPlanner::createPlan(const PoseStamped&, const PoseStamped&)[m[K’
+   48 |   nav_msgs::msg::Path [01;36m[KcreatePlan[m[K(
+      |                       [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/aarambh/my_robot_ws/src/bumperbot_planning/include/bumperbot_planning/dijkstra_planner.hpp:31:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass bumperbot_planning::DijkstraPlanner[m[K’ defined here
+   31 | class [01;36m[KDijkstraPlanner[m[K : public nav2_core::GlobalPlanner
+      |       [01;36m[K^~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/a_star_planner.dir/build.make:76: CMakeFiles/a_star_planner.dir/src/a_star_planner.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:220: CMakeFiles/a_star_planner.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/dijkstra_planner.dir/build.make:76: CMakeFiles/dijkstra_planner.dir/src/dijkstra_planner.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:194: CMakeFiles/dijkstra_planner.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

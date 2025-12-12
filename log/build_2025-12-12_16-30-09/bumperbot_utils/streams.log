@@ -1,0 +1,42 @@
+[0.072s] Invoking command in '/home/aarambh/my_robot_ws/build/bumperbot_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aarambh/my_robot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/aarambh/my_robot_ws/build/bumperbot_utils -- -j4 -l4
+[0.403s] [100%] Built target safety_stop
+[0.510s] [100%] Built target ament_cmake_python_copy_bumperbot_utils
+[2.809s] running egg_info
+[2.818s] writing bumperbot_utils.egg-info/PKG-INFO
+[2.822s] writing dependency_links to bumperbot_utils.egg-info/dependency_links.txt
+[2.824s] writing top-level names to bumperbot_utils.egg-info/top_level.txt
+[2.839s] reading manifest file 'bumperbot_utils.egg-info/SOURCES.txt'
+[2.844s] writing manifest file 'bumperbot_utils.egg-info/SOURCES.txt'
+[3.108s] [100%] Built target ament_cmake_python_build_bumperbot_utils_egg
+[4.201s] Invoked command in '/home/aarambh/my_robot_ws/build/bumperbot_utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aarambh/my_robot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/aarambh/my_robot_ws/build/bumperbot_utils -- -j4 -l4
+[4.211s] Invoking command in '/home/aarambh/my_robot_ws/build/bumperbot_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aarambh/my_robot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/aarambh/my_robot_ws/build/bumperbot_utils
+[4.264s] -- Install configuration: ""
+[4.265s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_utils/share/bumperbot_utils/environment/pythonpath.sh
+[4.265s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_utils/share/bumperbot_utils/environment/pythonpath.dsv
+[4.266s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_utils/local/lib/python3.10/dist-packages/bumperbot_utils-0.0.0-py3.10.egg-info
+[4.269s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_utils/local/lib/python3.10/dist-packages/bumperbot_utils-0.0.0-py3.10.egg-info/PKG-INFO
+[4.271s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_utils/local/lib/python3.10/dist-packages/bumperbot_utils-0.0.0-py3.10.egg-info/top_level.txt
+[4.276s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_utils/local/lib/python3.10/dist-packages/bumperbot_utils-0.0.0-py3.10.egg-info/dependency_links.txt
+[4.278s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_utils/local/lib/python3.10/dist-packages/bumperbot_utils-0.0.0-py3.10.egg-info/SOURCES.txt
+[4.292s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_utils/local/lib/python3.10/dist-packages/bumperbot_utils
+[4.292s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_utils/local/lib/python3.10/dist-packages/bumperbot_utils/__init__.py
+[4.293s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_utils/local/lib/python3.10/dist-packages/bumperbot_utils/safety_stop.py
+[4.470s] Listing '/home/aarambh/my_robot_ws/install/bumperbot_utils/local/lib/python3.10/dist-packages/bumperbot_utils'...
+[4.502s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_utils/lib/bumperbot_utils/safety_stop
+[4.506s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_utils/lib/bumperbot_utils/safety_stop.py
+[4.507s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_utils/share/ament_index/resource_index/package_run_dependencies/bumperbot_utils
+[4.509s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_utils/share/ament_index/resource_index/parent_prefix_path/bumperbot_utils
+[4.510s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_utils/share/bumperbot_utils/environment/ament_prefix_path.sh
+[4.512s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_utils/share/bumperbot_utils/environment/ament_prefix_path.dsv
+[4.512s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_utils/share/bumperbot_utils/environment/path.sh
+[4.513s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_utils/share/bumperbot_utils/environment/path.dsv
+[4.515s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_utils/share/bumperbot_utils/local_setup.bash
+[4.517s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_utils/share/bumperbot_utils/local_setup.sh
+[4.518s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_utils/share/bumperbot_utils/local_setup.zsh
+[4.518s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_utils/share/bumperbot_utils/local_setup.dsv
+[4.519s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_utils/share/bumperbot_utils/package.dsv
+[4.520s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_utils/share/ament_index/resource_index/packages/bumperbot_utils
+[4.522s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_utils/share/bumperbot_utils/cmake/bumperbot_utilsConfig.cmake
+[4.524s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_utils/share/bumperbot_utils/cmake/bumperbot_utilsConfig-version.cmake
+[4.528s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_utils/share/bumperbot_utils/package.xml
+[4.532s] Invoked command in '/home/aarambh/my_robot_ws/build/bumperbot_utils' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aarambh/my_robot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/aarambh/my_robot_ws/build/bumperbot_utils

@@ -1,0 +1,57 @@
+[0.071s] Invoking command in '/home/aarambh/my_robot_ws/build/bumperbot_motion': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/aarambh/my_robot_ws/build/bumperbot_motion -- -j4 -l4
+[0.540s] [ 50%] Built target pure_pursuit
+[0.570s] [ 50%] Built target ament_cmake_python_copy_bumperbot_motion
+[0.594s] [100%] Built target pd_motion_planner
+[3.185s] running egg_info
+[3.190s] writing bumperbot_motion.egg-info/PKG-INFO
+[3.193s] writing dependency_links to bumperbot_motion.egg-info/dependency_links.txt
+[3.196s] writing top-level names to bumperbot_motion.egg-info/top_level.txt
+[3.209s] reading manifest file 'bumperbot_motion.egg-info/SOURCES.txt'
+[3.213s] writing manifest file 'bumperbot_motion.egg-info/SOURCES.txt'
+[3.430s] [100%] Built target ament_cmake_python_build_bumperbot_motion_egg
+[3.564s] Invoked command in '/home/aarambh/my_robot_ws/build/bumperbot_motion' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/aarambh/my_robot_ws/build/bumperbot_motion -- -j4 -l4
+[3.567s] Invoking command in '/home/aarambh/my_robot_ws/build/bumperbot_motion': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/aarambh/my_robot_ws/build/bumperbot_motion
+[3.662s] -- Install configuration: ""
+[3.663s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_motion/share/bumperbot_motion/environment/pythonpath.sh
+[3.664s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_motion/share/bumperbot_motion/environment/pythonpath.dsv
+[3.664s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_motion/local/lib/python3.10/dist-packages/bumperbot_motion-0.0.0-py3.10.egg-info
+[3.665s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_motion/local/lib/python3.10/dist-packages/bumperbot_motion-0.0.0-py3.10.egg-info/PKG-INFO
+[3.666s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_motion/local/lib/python3.10/dist-packages/bumperbot_motion-0.0.0-py3.10.egg-info/top_level.txt
+[3.681s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_motion/local/lib/python3.10/dist-packages/bumperbot_motion-0.0.0-py3.10.egg-info/dependency_links.txt
+[3.683s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_motion/local/lib/python3.10/dist-packages/bumperbot_motion-0.0.0-py3.10.egg-info/SOURCES.txt
+[3.684s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_motion/local/lib/python3.10/dist-packages/bumperbot_motion
+[3.685s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_motion/local/lib/python3.10/dist-packages/bumperbot_motion/pd_motion_planner.py
+[3.686s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_motion/local/lib/python3.10/dist-packages/bumperbot_motion/__init__.py
+[3.687s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_motion/local/lib/python3.10/dist-packages/bumperbot_motion/pure_pursuit.py
+[4.010s] Listing '/home/aarambh/my_robot_ws/install/bumperbot_motion/local/lib/python3.10/dist-packages/bumperbot_motion'...
+[4.049s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_motion/share/bumperbot_motion/motion_planner_plugins.xml
+[4.050s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_motion/lib/libpd_motion_planner.so
+[4.064s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_motion/lib/libpure_pursuit.so
+[4.065s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_motion/include/include
+[4.067s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_motion/include/include/bumperbot_motion
+[4.068s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_motion/include/include/bumperbot_motion/pure_pursuit.hpp
+[4.068s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_motion/include/include/bumperbot_motion/pd_motion_planner.hpp
+[4.068s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_motion/lib/bumperbot_motion/pd_motion_planner.py
+[4.069s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_motion/lib/bumperbot_motion/pure_pursuit.py
+[4.069s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_motion/share/bumperbot_motion/environment/library_path.sh
+[4.069s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_motion/share/bumperbot_motion/environment/library_path.dsv
+[4.070s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_motion/share/ament_index/resource_index/package_run_dependencies/bumperbot_motion
+[4.070s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_motion/share/ament_index/resource_index/parent_prefix_path/bumperbot_motion
+[4.070s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_motion/share/bumperbot_motion/environment/ament_prefix_path.sh
+[4.071s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_motion/share/bumperbot_motion/environment/ament_prefix_path.dsv
+[4.071s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_motion/share/bumperbot_motion/environment/path.sh
+[4.072s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_motion/share/bumperbot_motion/environment/path.dsv
+[4.072s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_motion/share/bumperbot_motion/local_setup.bash
+[4.073s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_motion/share/bumperbot_motion/local_setup.sh
+[4.073s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_motion/share/bumperbot_motion/local_setup.zsh
+[4.073s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_motion/share/bumperbot_motion/local_setup.dsv
+[4.074s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_motion/share/bumperbot_motion/package.dsv
+[4.077s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_motion/share/ament_index/resource_index/packages/bumperbot_motion
+[4.078s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_motion/share/ament_index/resource_index/nav2_core__pluginlib__plugin/bumperbot_motion
+[4.078s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_motion/share/bumperbot_motion/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.078s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_motion/share/bumperbot_motion/cmake/ament_cmake_export_libraries-extras.cmake
+[4.081s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_motion/share/bumperbot_motion/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.082s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_motion/share/bumperbot_motion/cmake/bumperbot_motionConfig.cmake
+[4.082s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_motion/share/bumperbot_motion/cmake/bumperbot_motionConfig-version.cmake
+[4.083s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_motion/share/bumperbot_motion/package.xml
+[4.097s] Invoked command in '/home/aarambh/my_robot_ws/build/bumperbot_motion' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/aarambh/my_robot_ws/build/bumperbot_motion

@@ -1,0 +1,75 @@
+[0.128s] Invoking command in '/home/aarambh/my_robot_ws/build/bumperbot_planning': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/aarambh/my_robot_ws/src/bumperbot_planning -DCMAKE_INSTALL_PREFIX=/home/aarambh/my_robot_ws/install/bumperbot_planning
+[0.911s] -- The C compiler identification is GNU 11.4.0
+[1.554s] -- The CXX compiler identification is GNU 11.4.0
+[1.625s] -- Detecting C compiler ABI info
+[2.405s] -- Detecting C compiler ABI info - done
+[2.434s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.438s] -- Detecting C compile features
+[2.444s] -- Detecting C compile features - done
+[2.471s] -- Detecting CXX compiler ABI info
+[3.454s] -- Detecting CXX compiler ABI info - done
+[3.504s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.505s] -- Detecting CXX compile features
+[3.520s] -- Detecting CXX compile features - done
+[3.594s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.929s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[5.875s] -- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)
+[6.437s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[6.507s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[6.637s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[6.751s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.068s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.771s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[7.813s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[9.047s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[9.443s] -- Found FastRTPS: /opt/ros/humble/include  
+[10.081s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[10.234s] -- Looking for pthread.h
+[11.074s] -- Looking for pthread.h - found
+[11.076s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[11.699s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[11.715s] -- Found Threads: TRUE  
+[12.459s] -- Found rclcpp_action: 16.0.16 (/opt/ros/humble/share/rclcpp_action/cmake)
+[12.961s] -- Found rclpy: 3.3.19 (/opt/ros/humble/share/rclpy/cmake)
+[12.991s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[13.255s] -- Found tf2_ros: 0.25.17 (/opt/ros/humble/share/tf2_ros/cmake)
+[13.999s] -- Found nav2_core: 1.1.20 (/opt/ros/humble/share/nav2_core/cmake)
+[15.683s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[15.685s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[20.324s] -- Configuring done
+[21.501s] -- Generating done
+[21.571s] -- Build files have been written to: /home/aarambh/my_robot_ws/build/bumperbot_planning
+[21.649s] Invoked command in '/home/aarambh/my_robot_ws/build/bumperbot_planning' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/aarambh/my_robot_ws/src/bumperbot_planning -DCMAKE_INSTALL_PREFIX=/home/aarambh/my_robot_ws/install/bumperbot_planning
+[21.658s] Invoking command in '/home/aarambh/my_robot_ws/build/bumperbot_planning': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/aarambh/my_robot_ws/build/bumperbot_planning -- -j4 -l4
+[22.120s] [  0%] Built target ament_cmake_python_copy_bumperbot_planning
+[22.393s] [ 25%] [32mBuilding CXX object CMakeFiles/a_star_planner.dir/src/a_star_planner.cpp.o[0m
+[47.504s] In file included from [01m[K/home/aarambh/my_robot_ws/src/bumperbot_planning/src/a_star_planner.cpp:3[m[K:
+[47.505s] [01m[K/home/aarambh/my_robot_ws/src/bumperbot_planning/include/bumperbot_planning/a_star_planner.hpp:64:23:[m[K [01;31m[Kerror: [m[K‘[01m[Knav_msgs::msg::Path bumperbot_planning::AStarPlanner::createPlan(const PoseStamped&, const PoseStamped&, std::function<bool()>)[m[K’ marked ‘[01m[Koverride[m[K’, but does not override
+[47.506s]    64 |   nav_msgs::msg::Path [01;31m[KcreatePlan[m[K(
+[47.507s]       |                       [01;31m[K^~~~~~~~~~[m[K
+[55.816s] In file included from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp:57[m[K,
+[55.817s]                  from [01m[K/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:55[m[K,
+[55.818s]                  from [01m[K/opt/ros/humble/include/class_loader/class_loader/multi_library_class_loader.hpp:52[m[K,
+[55.819s]                  from [01m[K/opt/ros/humble/include/pluginlib/pluginlib/class_loader.hpp:38[m[K,
+[55.820s]                  from [01m[K/opt/ros/humble/include/nav2_costmap_2d/nav2_costmap_2d/costmap_2d_ros.hpp:54[m[K,
+[55.820s]                  from [01m[K/opt/ros/humble/include/nav2_core/global_planner.hpp:21[m[K,
+[55.821s]                  from [01m[K/home/aarambh/my_robot_ws/src/bumperbot_planning/include/bumperbot_planning/a_star_planner.hpp:12[m[K,
+[55.822s]                  from [01m[K/home/aarambh/my_robot_ws/src/bumperbot_planning/src/a_star_planner.cpp:3[m[K:
+[55.823s] /opt/ros/humble/include/class_loader/class_loader/meta_object.hpp: In instantiation of ‘[01m[KB* class_loader::impl::MetaObject<C, B>::create() const [with C = bumperbot_planning::AStarPlanner; B = nav2_core::GlobalPlanner][m[K’:
+[55.824s] [01m[K/opt/ros/humble/include/class_loader/class_loader/meta_object.hpp:216:7:[m[K   required from here
+[55.824s] [01m[K/opt/ros/humble/include/class_loader/class_loader/meta_object.hpp:218:12:[m[K [01;31m[Kerror: [m[Kinvalid new-expression of abstract class type ‘[01m[Kbumperbot_planning::AStarPlanner[m[K’
+[55.825s]   218 |     return [01;31m[Knew C[m[K;
+[55.826s]       |            [01;31m[K^~~~~[m[K
+[55.827s] In file included from [01m[K/home/aarambh/my_robot_ws/src/bumperbot_planning/src/a_star_planner.cpp:3[m[K:
+[55.828s] [01m[K/home/aarambh/my_robot_ws/src/bumperbot_planning/include/bumperbot_planning/a_star_planner.hpp:47:7:[m[K [01;36m[Knote: [m[K  because the following virtual functions are pure within ‘[01m[Kbumperbot_planning::AStarPlanner[m[K’:
+[55.829s]    47 | class [01;36m[KAStarPlanner[m[K : public nav2_core::GlobalPlanner
+[55.832s]       |       [01;36m[K^~~~~~~~~~~~[m[K
+[55.833s] In file included from [01m[K/home/aarambh/my_robot_ws/src/bumperbot_planning/include/bumperbot_planning/a_star_planner.hpp:12[m[K,
+[55.834s]                  from [01m[K/home/aarambh/my_robot_ws/src/bumperbot_planning/src/a_star_planner.cpp:3[m[K:
+[55.834s] [01m[K/opt/ros/humble/include/nav2_core/global_planner.hpp:76:31:[m[K [01;36m[Knote: [m[K    ‘[01m[Kvirtual nav_msgs::msg::Path nav2_core::GlobalPlanner::createPlan(const PoseStamped&, const PoseStamped&)[m[K’
+[55.835s]    76 |   virtual nav_msgs::msg::Path [01;36m[KcreatePlan[m[K(
+[55.836s]       |                               [01;36m[K^~~~~~~~~~[m[K
+[56.997s] gmake[2]: *** [CMakeFiles/a_star_planner.dir/build.make:76: CMakeFiles/a_star_planner.dir/src/a_star_planner.cpp.o] Error 1
+[56.998s] gmake[1]: *** [CMakeFiles/Makefile2:220: CMakeFiles/a_star_planner.dir/all] Error 2
+[57.005s] gmake: *** [Makefile:146: all] Error 2
+[57.012s] Invoked command in '/home/aarambh/my_robot_ws/build/bumperbot_planning' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/aarambh/my_robot_ws/build/bumperbot_planning -- -j4 -l4

@@ -1,0 +1,52 @@
+[0.046s] Invoking command in '/home/aarambh/my_robot_ws/build/bumperbot_navigation': AMENT_PREFIX_PATH=/home/aarambh/my_robot_ws/install/bumperbot_planning:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aarambh/my_robot_ws/install/bumperbot_planning:/opt/ros/humble LD_LIBRARY_PATH=/home/aarambh/my_robot_ws/install/bumperbot_planning/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aarambh/my_robot_ws/install/bumperbot_planning/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/aarambh/my_robot_ws/src/bumperbot_navigation -DCMAKE_INSTALL_PREFIX=/home/aarambh/my_robot_ws/install/bumperbot_navigation
+[0.300s] -- The C compiler identification is GNU 11.4.0
+[0.549s] -- The CXX compiler identification is GNU 11.4.0
+[0.582s] -- Detecting C compiler ABI info
+[0.899s] -- Detecting C compiler ABI info - done
+[0.926s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.927s] -- Detecting C compile features
+[0.928s] -- Detecting C compile features - done
+[0.939s] -- Detecting CXX compiler ABI info
+[1.291s] -- Detecting CXX compiler ABI info - done
+[1.317s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.318s] -- Detecting CXX compile features
+[1.320s] -- Detecting CXX compile features - done
+[1.356s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.101s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.053s] -- Configuring done
+[3.071s] -- Generating done
+[3.079s] -- Build files have been written to: /home/aarambh/my_robot_ws/build/bumperbot_navigation
+[3.093s] Invoked command in '/home/aarambh/my_robot_ws/build/bumperbot_navigation' returned '0': AMENT_PREFIX_PATH=/home/aarambh/my_robot_ws/install/bumperbot_planning:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aarambh/my_robot_ws/install/bumperbot_planning:/opt/ros/humble LD_LIBRARY_PATH=/home/aarambh/my_robot_ws/install/bumperbot_planning/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aarambh/my_robot_ws/install/bumperbot_planning/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/aarambh/my_robot_ws/src/bumperbot_navigation -DCMAKE_INSTALL_PREFIX=/home/aarambh/my_robot_ws/install/bumperbot_navigation
+[3.100s] Invoking command in '/home/aarambh/my_robot_ws/build/bumperbot_navigation': AMENT_PREFIX_PATH=/home/aarambh/my_robot_ws/install/bumperbot_planning:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aarambh/my_robot_ws/install/bumperbot_planning:/opt/ros/humble LD_LIBRARY_PATH=/home/aarambh/my_robot_ws/install/bumperbot_planning/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aarambh/my_robot_ws/install/bumperbot_planning/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/aarambh/my_robot_ws/build/bumperbot_navigation -- -j4 -l4
+[3.247s] Invoked command in '/home/aarambh/my_robot_ws/build/bumperbot_navigation' returned '0': AMENT_PREFIX_PATH=/home/aarambh/my_robot_ws/install/bumperbot_planning:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aarambh/my_robot_ws/install/bumperbot_planning:/opt/ros/humble LD_LIBRARY_PATH=/home/aarambh/my_robot_ws/install/bumperbot_planning/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aarambh/my_robot_ws/install/bumperbot_planning/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/aarambh/my_robot_ws/build/bumperbot_navigation -- -j4 -l4
+[3.256s] Invoking command in '/home/aarambh/my_robot_ws/build/bumperbot_navigation': AMENT_PREFIX_PATH=/home/aarambh/my_robot_ws/install/bumperbot_planning:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aarambh/my_robot_ws/install/bumperbot_planning:/opt/ros/humble LD_LIBRARY_PATH=/home/aarambh/my_robot_ws/install/bumperbot_planning/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aarambh/my_robot_ws/install/bumperbot_planning/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/aarambh/my_robot_ws/build/bumperbot_navigation
+[3.284s] -- Install configuration: ""
+[3.285s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_navigation/share/bumperbot_navigation/behavior_tree
+[3.285s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_navigation/share/bumperbot_navigation/behavior_tree/simple_navigation_w_replanning_and_recovery.xml
+[3.287s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_navigation/share/bumperbot_navigation/behavior_tree/simple_navigation.xml
+[3.288s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_navigation/share/bumperbot_navigation/behavior_tree/simple_navigation_w_replanning.xml
+[3.289s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_navigation/share/bumperbot_navigation/config
+[3.289s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_navigation/share/bumperbot_navigation/config/costmap.yaml
+[3.291s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_navigation/share/bumperbot_navigation/config/smoother_server.yaml
+[3.292s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_navigation/share/bumperbot_navigation/config/planner_server.yaml
+[3.293s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_navigation/share/bumperbot_navigation/config/controller_server.yaml
+[3.294s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_navigation/share/bumperbot_navigation/config/bt_navigator.yaml
+[3.295s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_navigation/share/bumperbot_navigation/config/behavior_server.yaml
+[3.296s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_navigation/share/bumperbot_navigation/launch
+[3.296s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_navigation/share/bumperbot_navigation/launch/navigation.launch.py
+[3.298s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_navigation/share/ament_index/resource_index/package_run_dependencies/bumperbot_navigation
+[3.300s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_navigation/share/ament_index/resource_index/parent_prefix_path/bumperbot_navigation
+[3.301s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_navigation/share/bumperbot_navigation/environment/ament_prefix_path.sh
+[3.302s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_navigation/share/bumperbot_navigation/environment/ament_prefix_path.dsv
+[3.304s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_navigation/share/bumperbot_navigation/environment/path.sh
+[3.305s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_navigation/share/bumperbot_navigation/environment/path.dsv
+[3.306s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_navigation/share/bumperbot_navigation/local_setup.bash
+[3.307s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_navigation/share/bumperbot_navigation/local_setup.sh
+[3.309s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_navigation/share/bumperbot_navigation/local_setup.zsh
+[3.310s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_navigation/share/bumperbot_navigation/local_setup.dsv
+[3.311s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_navigation/share/bumperbot_navigation/package.dsv
+[3.313s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_navigation/share/ament_index/resource_index/packages/bumperbot_navigation
+[3.314s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_navigation/share/bumperbot_navigation/cmake/bumperbot_navigationConfig.cmake
+[3.315s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_navigation/share/bumperbot_navigation/cmake/bumperbot_navigationConfig-version.cmake
+[3.316s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_navigation/share/bumperbot_navigation/package.xml
+[3.324s] Invoked command in '/home/aarambh/my_robot_ws/build/bumperbot_navigation' returned '0': AMENT_PREFIX_PATH=/home/aarambh/my_robot_ws/install/bumperbot_planning:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aarambh/my_robot_ws/install/bumperbot_planning:/opt/ros/humble LD_LIBRARY_PATH=/home/aarambh/my_robot_ws/install/bumperbot_planning/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aarambh/my_robot_ws/install/bumperbot_planning/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/aarambh/my_robot_ws/build/bumperbot_navigation

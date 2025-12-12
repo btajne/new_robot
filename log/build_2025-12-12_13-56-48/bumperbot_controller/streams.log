@@ -1,0 +1,65 @@
+[0.129s] Invoking command in '/home/aarambh/my_robot_ws/build/bumperbot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aarambh/my_robot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/aarambh/my_robot_ws/build/bumperbot_controller -- -j4 -l4
+[0.653s] [  0%] Built target ament_cmake_python_copy_bumperbot_controller
+[0.686s] [ 33%] Built target simple_controller
+[0.880s] [ 66%] Built target twist_relay
+[0.914s] [100%] Built target noisy_controller
+[3.180s] running egg_info
+[3.184s] writing bumperbot_controller.egg-info/PKG-INFO
+[3.185s] writing dependency_links to bumperbot_controller.egg-info/dependency_links.txt
+[3.187s] writing top-level names to bumperbot_controller.egg-info/top_level.txt
+[3.200s] reading manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[3.205s] writing manifest file 'bumperbot_controller.egg-info/SOURCES.txt'
+[3.439s] [100%] Built target ament_cmake_python_build_bumperbot_controller_egg
+[3.507s] Invoked command in '/home/aarambh/my_robot_ws/build/bumperbot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aarambh/my_robot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/aarambh/my_robot_ws/build/bumperbot_controller -- -j4 -l4
+[3.509s] Invoking command in '/home/aarambh/my_robot_ws/build/bumperbot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aarambh/my_robot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/aarambh/my_robot_ws/build/bumperbot_controller
+[3.561s] -- Install configuration: ""
+[3.563s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/pythonpath.sh
+[3.565s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/pythonpath.dsv
+[3.566s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller-0.0.0-py3.10.egg-info
+[3.568s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller-0.0.0-py3.10.egg-info/PKG-INFO
+[3.572s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller-0.0.0-py3.10.egg-info/top_level.txt
+[3.577s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller-0.0.0-py3.10.egg-info/dependency_links.txt
+[3.580s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller-0.0.0-py3.10.egg-info/SOURCES.txt
+[3.583s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller
+[3.584s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller/simple_controller.py
+[3.586s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller/__init__.py
+[3.588s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller/twist_relay.py
+[3.589s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller/noisy_controller.py
+[3.874s] Listing '/home/aarambh/my_robot_ws/install/bumperbot_controller/local/lib/python3.10/dist-packages/bumperbot_controller'...
+[3.908s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_controller/include/include
+[3.910s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_controller/include/include/bumperbot_controller
+[3.911s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_controller/include/include/bumperbot_controller/noisy_controller.hpp
+[3.913s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_controller/include/include/bumperbot_controller/simple_controller.hpp
+[3.917s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_controller/lib/bumperbot_controller/simple_controller
+[3.921s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_controller/lib/bumperbot_controller/noisy_controller
+[3.925s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_controller/lib/bumperbot_controller/twist_relay
+[4.006s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_controller/share/bumperbot_controller/launch
+[4.007s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_controller/share/bumperbot_controller/launch/controller.launch.py
+[4.009s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_controller/share/bumperbot_controller/launch/joystick_teleop.launch.py
+[4.010s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_controller/share/bumperbot_controller/config
+[4.012s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_controller/share/bumperbot_controller/config/twist_mux_locks.yaml
+[4.013s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_controller/share/bumperbot_controller/config/twisy_mux_joy.yaml
+[4.013s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_controller/share/bumperbot_controller/config/twist_mux_joy.yaml
+[4.015s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_controller/share/bumperbot_controller/config/joy_teleop.yaml
+[4.016s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_controller/share/bumperbot_controller/config/joy_config.yaml
+[4.016s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_controller/share/bumperbot_controller/config/twist_mux_topics.yaml
+[4.017s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_controller/share/bumperbot_controller/config/bumperbot_controllers.yaml
+[4.020s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_controller/lib/bumperbot_controller/simple_controller.py
+[4.024s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_controller/lib/bumperbot_controller/noisy_controller.py
+[4.032s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_controller/lib/bumperbot_controller/twist_relay.py
+[4.042s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_controller/share/ament_index/resource_index/package_run_dependencies/bumperbot_controller
+[4.048s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_controller/share/ament_index/resource_index/parent_prefix_path/bumperbot_controller
+[4.059s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/ament_prefix_path.sh
+[4.063s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/ament_prefix_path.dsv
+[4.071s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/path.sh
+[4.075s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_controller/share/bumperbot_controller/environment/path.dsv
+[4.077s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.bash
+[4.078s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.sh
+[4.084s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.zsh
+[4.086s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_controller/share/bumperbot_controller/local_setup.dsv
+[4.087s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_controller/share/bumperbot_controller/package.dsv
+[4.090s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_controller/share/ament_index/resource_index/packages/bumperbot_controller
+[4.094s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_controller/share/bumperbot_controller/cmake/bumperbot_controllerConfig.cmake
+[4.094s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_controller/share/bumperbot_controller/cmake/bumperbot_controllerConfig-version.cmake
+[4.096s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_controller/share/bumperbot_controller/package.xml
+[4.104s] Invoked command in '/home/aarambh/my_robot_ws/build/bumperbot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aarambh/my_robot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/aarambh/my_robot_ws/build/bumperbot_controller

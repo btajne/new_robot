@@ -1,0 +1,59 @@
+[0.092s] Invoking command in '/home/aarambh/my_robot_ws/build/bumperbot_localization': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/aarambh/my_robot_ws/src/bumperbot_localization -DCMAKE_INSTALL_PREFIX=/home/aarambh/my_robot_ws/install/bumperbot_localization
+[0.547s] -- The C compiler identification is GNU 11.4.0
+[1.250s] -- The CXX compiler identification is GNU 11.4.0
+[1.335s] -- Detecting C compiler ABI info
+[1.909s] -- Detecting C compiler ABI info - done
+[1.992s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.994s] -- Detecting C compile features
+[1.996s] -- Detecting C compile features - done
+[2.011s] -- Detecting CXX compiler ABI info
+[2.726s] -- Detecting CXX compiler ABI info - done
+[2.758s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.759s] -- Detecting CXX compile features
+[2.761s] -- Detecting CXX compile features - done
+[2.799s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.067s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[5.416s] -- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)
+[6.719s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[6.982s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[7.309s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[7.470s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.861s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[9.275s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[9.313s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[10.321s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[11.313s] -- Found FastRTPS: /opt/ros/humble/include  
+[12.902s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[13.098s] -- Looking for pthread.h
+[14.277s] -- Looking for pthread.h - found
+[14.281s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[15.806s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[15.813s] -- Found Threads: TRUE  
+[17.320s] -- Found rclpy: 3.3.19 (/opt/ros/humble/share/rclpy/cmake)
+[17.405s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[18.207s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[18.588s] -- Found tf2: 0.25.17 (/opt/ros/humble/share/tf2/cmake)
+[21.637s] -- Configuring done
+[21.878s] -- Generating done
+[22.061s] -- Build files have been written to: /home/aarambh/my_robot_ws/build/bumperbot_localization
+[22.264s] Invoked command in '/home/aarambh/my_robot_ws/build/bumperbot_localization' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/aarambh/my_robot_ws/src/bumperbot_localization -DCMAKE_INSTALL_PREFIX=/home/aarambh/my_robot_ws/install/bumperbot_localization
+[22.272s] Invoking command in '/home/aarambh/my_robot_ws/build/bumperbot_localization': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/aarambh/my_robot_ws/build/bumperbot_localization -- -j4 -l4
+[22.981s] [ 16%] [32mBuilding CXX object CMakeFiles/kalman_filter.dir/src/kalman_filter.cpp.o[0m
+[135.617s] [ 33%] [32m[1mLinking CXX executable kalman_filter[0m
+[138.991s] [ 33%] Built target kalman_filter
+[139.151s] [ 33%] Built target ament_cmake_python_copy_bumperbot_localization
+[139.258s] [ 50%] [32mBuilding CXX object CMakeFiles/odometry_motion_model.dir/src/odometry_motion_model.cpp.o[0m
+[187.515s] [ 66%] [32m[1mLinking CXX executable odometry_motion_model[0m
+[189.979s] [ 66%] Built target odometry_motion_model
+[191.556s] running egg_info
+[191.559s] creating bumperbot_localization.egg-info
+[191.560s] writing bumperbot_localization.egg-info/PKG-INFO
+[191.561s] writing dependency_links to bumperbot_localization.egg-info/dependency_links.txt
+[191.561s] writing top-level names to bumperbot_localization.egg-info/top_level.txt
+[191.563s] writing manifest file 'bumperbot_localization.egg-info/SOURCES.txt'
+[191.572s] reading manifest file 'bumperbot_localization.egg-info/SOURCES.txt'
+[191.574s] writing manifest file 'bumperbot_localization.egg-info/SOURCES.txt'
+[191.716s] [ 66%] Built target ament_cmake_python_build_bumperbot_localization_egg
+[191.798s] [ 83%] [32mBuilding CXX object CMakeFiles/imu_republisher.dir/src/imu_republisher.cpp.o[0m
+[228.836s] [100%] [32m[1mLinking CXX executable imu_republisher[0m
+[230.726s] [100%] Built target imu_republisher

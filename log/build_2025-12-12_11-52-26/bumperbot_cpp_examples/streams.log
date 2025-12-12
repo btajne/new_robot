@@ -1,0 +1,81 @@
+[0.058s] Invoking command in '/home/aarambh/my_robot_ws/build/bumperbot_cpp_examples': AMENT_PREFIX_PATH=/home/aarambh/my_robot_ws/install/bumperbot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aarambh/my_robot_ws/install/bumperbot_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/aarambh/my_robot_ws/install/bumperbot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aarambh/my_robot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/aarambh/my_robot_ws/build/bumperbot_cpp_examples -- -j4 -l4
+[0.348s] [35m[1mConsolidate compiler generated dependencies of target simple_subscriber[0m
+[0.362s] [35m[1mConsolidate compiler generated dependencies of target simple_publisher[0m
+[0.370s] [35m[1mConsolidate compiler generated dependencies of target simple_parameter[0m
+[0.393s] [35m[1mConsolidate compiler generated dependencies of target simple_turtlesim_kinematics[0m
+[0.582s] [  7%] Built target simple_parameter
+[0.607s] [ 14%] Built target simple_subscriber
+[0.609s] [ 21%] Built target simple_publisher
+[0.613s] [ 28%] Built target simple_turtlesim_kinematics
+[0.688s] [35m[1mConsolidate compiler generated dependencies of target simple_service_server[0m
+[0.720s] [35m[1mConsolidate compiler generated dependencies of target simple_service_client[0m
+[0.724s] [35m[1mConsolidate compiler generated dependencies of target simple_tf_kinematics[0m
+[0.733s] [35m[1mConsolidate compiler generated dependencies of target simple_lifecycle_node[0m
+[0.916s] [ 35%] Built target simple_service_server
+[0.920s] [ 42%] Built target simple_lifecycle_node
+[0.937s] [ 50%] Built target simple_service_client
+[0.943s] [ 57%] Built target simple_tf_kinematics
+[1.037s] [35m[1mConsolidate compiler generated dependencies of target simple_qos_publisher[0m
+[1.038s] [35m[1mConsolidate compiler generated dependencies of target simple_qos_subscriber[0m
+[1.074s] [35m[1mConsolidate compiler generated dependencies of target simple_action_server_node[0m
+[1.077s] [35m[1mConsolidate compiler generated dependencies of target simple_action_server[0m
+[1.226s] [ 64%] Built target simple_qos_subscriber
+[1.231s] [ 71%] Built target simple_qos_publisher
+[1.262s] [ 78%] Built target simple_action_server_node
+[1.280s] [ 85%] Built target simple_action_server
+[1.310s] [35m[1mConsolidate compiler generated dependencies of target simple_action_client[0m
+[1.323s] [35m[1mConsolidate compiler generated dependencies of target simple_action_client_node[0m
+[1.466s] [ 92%] Built target simple_action_client
+[1.490s] [100%] Built target simple_action_client_node
+[3.396s] Invoked command in '/home/aarambh/my_robot_ws/build/bumperbot_cpp_examples' returned '0': AMENT_PREFIX_PATH=/home/aarambh/my_robot_ws/install/bumperbot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aarambh/my_robot_ws/install/bumperbot_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/aarambh/my_robot_ws/install/bumperbot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aarambh/my_robot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/aarambh/my_robot_ws/build/bumperbot_cpp_examples -- -j4 -l4
+[3.399s] Invoking command in '/home/aarambh/my_robot_ws/build/bumperbot_cpp_examples': AMENT_PREFIX_PATH=/home/aarambh/my_robot_ws/install/bumperbot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aarambh/my_robot_ws/install/bumperbot_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/aarambh/my_robot_ws/install/bumperbot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aarambh/my_robot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/aarambh/my_robot_ws/build/bumperbot_cpp_examples
+[3.435s] -- Install configuration: ""
+[3.437s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_action_server_node
+[3.443s] -- Set runtime path of "/home/aarambh/my_robot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_action_server_node" to ""
+[3.444s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_action_client_node
+[3.450s] -- Set runtime path of "/home/aarambh/my_robot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_action_client_node" to ""
+[3.453s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_cpp_examples/include/include
+[3.453s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_cpp_examples/include/include/bumperbot_cpp_examples
+[3.454s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_cpp_examples/include/include/bumperbot_cpp_examples/simple_tf_kinematics.hpp
+[3.455s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_cpp_examples/include/include/bumperbot_cpp_examples/simple_turtlesim_kinematics.hpp
+[3.456s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_publisher
+[3.467s] -- Set runtime path of "/home/aarambh/my_robot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_publisher" to ""
+[3.468s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_subscriber
+[3.500s] -- Set runtime path of "/home/aarambh/my_robot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_subscriber" to ""
+[3.501s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_parameter
+[3.505s] -- Set runtime path of "/home/aarambh/my_robot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_parameter" to ""
+[3.506s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_turtlesim_kinematics
+[3.537s] -- Set runtime path of "/home/aarambh/my_robot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_turtlesim_kinematics" to ""
+[3.538s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_service_server
+[3.545s] -- Set runtime path of "/home/aarambh/my_robot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_service_server" to ""
+[3.546s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_service_client
+[3.554s] -- Set runtime path of "/home/aarambh/my_robot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_service_client" to ""
+[3.555s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_tf_kinematics
+[3.569s] -- Set runtime path of "/home/aarambh/my_robot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_tf_kinematics" to ""
+[3.570s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_lifecycle_node
+[3.600s] -- Set runtime path of "/home/aarambh/my_robot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_lifecycle_node" to ""
+[3.601s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_qos_publisher
+[3.613s] -- Set runtime path of "/home/aarambh/my_robot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_qos_publisher" to ""
+[3.614s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_qos_subscriber
+[3.648s] -- Set runtime path of "/home/aarambh/my_robot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_qos_subscriber" to ""
+[3.649s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_cpp_examples/lib/libsimple_action_server.so
+[3.663s] -- Set runtime path of "/home/aarambh/my_robot_ws/install/bumperbot_cpp_examples/lib/libsimple_action_server.so" to ""
+[3.664s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_cpp_examples/lib/libsimple_action_client.so
+[3.680s] -- Set runtime path of "/home/aarambh/my_robot_ws/install/bumperbot_cpp_examples/lib/libsimple_action_client.so" to ""
+[3.682s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_cpp_examples/share/ament_index/resource_index/package_run_dependencies/bumperbot_cpp_examples
+[3.685s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_cpp_examples/share/ament_index/resource_index/parent_prefix_path/bumperbot_cpp_examples
+[3.690s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/ament_prefix_path.sh
+[3.692s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/ament_prefix_path.dsv
+[3.694s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/path.sh
+[3.696s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/path.dsv
+[3.698s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.bash
+[3.700s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.sh
+[3.702s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.zsh
+[3.704s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.dsv
+[3.707s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/package.dsv
+[3.709s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_cpp_examples/share/ament_index/resource_index/packages/bumperbot_cpp_examples
+[3.712s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_cpp_examples/share/ament_index/resource_index/rclcpp_components/bumperbot_cpp_examples
+[3.715s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/cmake/bumperbot_cpp_examplesConfig.cmake
+[3.717s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/cmake/bumperbot_cpp_examplesConfig-version.cmake
+[3.719s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/package.xml
+[3.730s] Invoked command in '/home/aarambh/my_robot_ws/build/bumperbot_cpp_examples' returned '0': AMENT_PREFIX_PATH=/home/aarambh/my_robot_ws/install/bumperbot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/aarambh/my_robot_ws/install/bumperbot_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/aarambh/my_robot_ws/install/bumperbot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/aarambh/my_robot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/aarambh/my_robot_ws/build/bumperbot_cpp_examples

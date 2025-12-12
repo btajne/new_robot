@@ -1,0 +1,53 @@
+[0.199s] Invoking command in '/home/aarambh/my_robot_ws/build/bumperbot_cpp_examples': CMAKE_PREFIX_PATH=/home/aarambh/my_robot_ws/install/bumperbot_msgs:/home/aarambh/my_robot_ws/install/bumperbot_utils:/home/aarambh/my_robot_ws/install/bumperbot_navigation:/home/aarambh/my_robot_ws/install/bumperbot_planning:/home/aarambh/my_robot_ws/install/bumperbot_cpp_examples:/home/aarambh/my_robot_ws/install/bumperbot_motion:/home/aarambh/my_robot_ws/install/bumperbot_bringup:/home/aarambh/my_robot_ws/install/bumperbot_mapping:/home/aarambh/my_robot_ws/install/bumperbot_localization:/home/aarambh/my_robot_ws/install/bumperbot_firmware:/home/aarambh/my_robot_ws/install/bumperbot_description:/home/aarambh/my_robot_ws/install/bumperbot_controller:/home/aarambh/my_robot_ws/install/bumperbot_py_examples:/opt/ros/humble LD_LIBRARY_PATH=/home/aarambh/my_robot_ws/install/bumperbot_msgs/lib:/home/aarambh/my_robot_ws/install/bumperbot_planning/lib:/home/aarambh/my_robot_ws/install/bumperbot_cpp_examples/lib:/home/aarambh/my_robot_ws/install/bumperbot_motion/lib:/home/aarambh/my_robot_ws/install/bumperbot_firmware/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/aarambh/my_robot_ws/build/bumperbot_cpp_examples -- -j4 -l4
+[0.644s] [  7%] Built target simple_subscriber
+[0.647s] [ 21%] Built target simple_parameter
+[0.649s] [ 21%] Built target simple_publisher
+[0.714s] [ 28%] Built target simple_turtlesim_kinematics
+[0.921s] [ 35%] Built target simple_service_server
+[0.931s] [ 42%] Built target simple_lifecycle_node
+[0.940s] [ 50%] Built target simple_service_client
+[0.966s] [ 57%] Built target simple_tf_kinematics
+[1.144s] [ 64%] Built target simple_qos_publisher
+[1.152s] [ 71%] Built target simple_qos_subscriber
+[1.154s] [ 78%] Built target simple_action_server_node
+[1.194s] [ 85%] Built target simple_action_server
+[1.295s] [ 92%] Built target simple_action_client_node
+[1.299s] [100%] Built target simple_action_client
+[2.395s] Invoked command in '/home/aarambh/my_robot_ws/build/bumperbot_cpp_examples' returned '0': CMAKE_PREFIX_PATH=/home/aarambh/my_robot_ws/install/bumperbot_msgs:/home/aarambh/my_robot_ws/install/bumperbot_utils:/home/aarambh/my_robot_ws/install/bumperbot_navigation:/home/aarambh/my_robot_ws/install/bumperbot_planning:/home/aarambh/my_robot_ws/install/bumperbot_cpp_examples:/home/aarambh/my_robot_ws/install/bumperbot_motion:/home/aarambh/my_robot_ws/install/bumperbot_bringup:/home/aarambh/my_robot_ws/install/bumperbot_mapping:/home/aarambh/my_robot_ws/install/bumperbot_localization:/home/aarambh/my_robot_ws/install/bumperbot_firmware:/home/aarambh/my_robot_ws/install/bumperbot_description:/home/aarambh/my_robot_ws/install/bumperbot_controller:/home/aarambh/my_robot_ws/install/bumperbot_py_examples:/opt/ros/humble LD_LIBRARY_PATH=/home/aarambh/my_robot_ws/install/bumperbot_msgs/lib:/home/aarambh/my_robot_ws/install/bumperbot_planning/lib:/home/aarambh/my_robot_ws/install/bumperbot_cpp_examples/lib:/home/aarambh/my_robot_ws/install/bumperbot_motion/lib:/home/aarambh/my_robot_ws/install/bumperbot_firmware/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/aarambh/my_robot_ws/build/bumperbot_cpp_examples -- -j4 -l4
+[2.407s] Invoking command in '/home/aarambh/my_robot_ws/build/bumperbot_cpp_examples': CMAKE_PREFIX_PATH=/home/aarambh/my_robot_ws/install/bumperbot_msgs:/home/aarambh/my_robot_ws/install/bumperbot_utils:/home/aarambh/my_robot_ws/install/bumperbot_navigation:/home/aarambh/my_robot_ws/install/bumperbot_planning:/home/aarambh/my_robot_ws/install/bumperbot_cpp_examples:/home/aarambh/my_robot_ws/install/bumperbot_motion:/home/aarambh/my_robot_ws/install/bumperbot_bringup:/home/aarambh/my_robot_ws/install/bumperbot_mapping:/home/aarambh/my_robot_ws/install/bumperbot_localization:/home/aarambh/my_robot_ws/install/bumperbot_firmware:/home/aarambh/my_robot_ws/install/bumperbot_description:/home/aarambh/my_robot_ws/install/bumperbot_controller:/home/aarambh/my_robot_ws/install/bumperbot_py_examples:/opt/ros/humble LD_LIBRARY_PATH=/home/aarambh/my_robot_ws/install/bumperbot_msgs/lib:/home/aarambh/my_robot_ws/install/bumperbot_planning/lib:/home/aarambh/my_robot_ws/install/bumperbot_cpp_examples/lib:/home/aarambh/my_robot_ws/install/bumperbot_motion/lib:/home/aarambh/my_robot_ws/install/bumperbot_firmware/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/aarambh/my_robot_ws/build/bumperbot_cpp_examples
+[2.448s] -- Install configuration: ""
+[2.449s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_action_server_node
+[2.452s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_action_client_node
+[2.454s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_cpp_examples/include/include
+[2.456s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_cpp_examples/include/include/bumperbot_cpp_examples
+[2.457s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_cpp_examples/include/include/bumperbot_cpp_examples/simple_tf_kinematics.hpp
+[2.457s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_cpp_examples/include/include/bumperbot_cpp_examples/simple_turtlesim_kinematics.hpp
+[2.458s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_publisher
+[2.460s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_subscriber
+[2.462s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_parameter
+[2.465s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_turtlesim_kinematics
+[2.468s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_service_server
+[2.470s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_service_client
+[2.472s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_tf_kinematics
+[2.475s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_lifecycle_node
+[2.478s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_qos_publisher
+[2.480s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_cpp_examples/lib/bumperbot_cpp_examples/simple_qos_subscriber
+[2.483s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_cpp_examples/lib/libsimple_action_server.so
+[2.486s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_cpp_examples/lib/libsimple_action_client.so
+[2.488s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_cpp_examples/share/ament_index/resource_index/package_run_dependencies/bumperbot_cpp_examples
+[2.489s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_cpp_examples/share/ament_index/resource_index/parent_prefix_path/bumperbot_cpp_examples
+[2.491s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/ament_prefix_path.sh
+[2.494s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/ament_prefix_path.dsv
+[2.495s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/path.sh
+[2.496s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/environment/path.dsv
+[2.497s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.bash
+[2.498s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.sh
+[2.498s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.zsh
+[2.499s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/local_setup.dsv
+[2.501s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/package.dsv
+[2.501s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_cpp_examples/share/ament_index/resource_index/packages/bumperbot_cpp_examples
+[2.502s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_cpp_examples/share/ament_index/resource_index/rclcpp_components/bumperbot_cpp_examples
+[2.504s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/cmake/bumperbot_cpp_examplesConfig.cmake
+[2.508s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/cmake/bumperbot_cpp_examplesConfig-version.cmake
+[2.509s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_cpp_examples/share/bumperbot_cpp_examples/package.xml
+[2.510s] Invoked command in '/home/aarambh/my_robot_ws/build/bumperbot_cpp_examples' returned '0': CMAKE_PREFIX_PATH=/home/aarambh/my_robot_ws/install/bumperbot_msgs:/home/aarambh/my_robot_ws/install/bumperbot_utils:/home/aarambh/my_robot_ws/install/bumperbot_navigation:/home/aarambh/my_robot_ws/install/bumperbot_planning:/home/aarambh/my_robot_ws/install/bumperbot_cpp_examples:/home/aarambh/my_robot_ws/install/bumperbot_motion:/home/aarambh/my_robot_ws/install/bumperbot_bringup:/home/aarambh/my_robot_ws/install/bumperbot_mapping:/home/aarambh/my_robot_ws/install/bumperbot_localization:/home/aarambh/my_robot_ws/install/bumperbot_firmware:/home/aarambh/my_robot_ws/install/bumperbot_description:/home/aarambh/my_robot_ws/install/bumperbot_controller:/home/aarambh/my_robot_ws/install/bumperbot_py_examples:/opt/ros/humble LD_LIBRARY_PATH=/home/aarambh/my_robot_ws/install/bumperbot_msgs/lib:/home/aarambh/my_robot_ws/install/bumperbot_planning/lib:/home/aarambh/my_robot_ws/install/bumperbot_cpp_examples/lib:/home/aarambh/my_robot_ws/install/bumperbot_motion/lib:/home/aarambh/my_robot_ws/install/bumperbot_firmware/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/aarambh/my_robot_ws/build/bumperbot_cpp_examples

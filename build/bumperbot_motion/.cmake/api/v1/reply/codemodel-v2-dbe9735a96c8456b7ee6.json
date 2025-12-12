@@ -1,0 +1,106 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-edd6b86ed9a5073b7284.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "bumperbot_motion",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_bumperbot_motion_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_bumperbot_motion_egg-5c3e43b86609d344b2df.json",
+					"name" : "ament_cmake_python_build_bumperbot_motion_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_bumperbot_motion::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_bumperbot_motion-f72d4bea6d942b2b90be.json",
+					"name" : "ament_cmake_python_copy_bumperbot_motion",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "bumperbot_motion_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bumperbot_motion_uninstall-9016fb7ff721587c8f65.json",
+					"name" : "bumperbot_motion_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pd_motion_planner::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pd_motion_planner-3d70a950fc9db39d899e.json",
+					"name" : "pd_motion_planner",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pure_pursuit::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pure_pursuit-ecb7678ba9c76f085e1c.json",
+					"name" : "pure_pursuit",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-766239af4cbcf3a56b65.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/aarambh/my_robot_ws/build/bumperbot_motion",
+		"source" : "/home/aarambh/my_robot_ws/src/bumperbot_motion"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
