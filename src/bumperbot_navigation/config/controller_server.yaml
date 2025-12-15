@@ -16,15 +16,30 @@ controller_server:
       plugin: "nav2_controller::SimpleProgressChecker"
       required_movement_radius: 0.5
       movement_time_allowance: 10.0
-
     # Goal checker parameters
     general_goal_checker:
       plugin: "nav2_controller::SimpleGoalChecker"
       xy_goal_tolerance: 0.25
       yaw_goal_tolerance: 0.25
       stateful: True
+    
+    # PD Motion Planner parameters
+    # FollowPath:
+    #   plugin: "bumperbot_motion::PDMotionPlanner"
+    #   kp: 2.0
+    #   kd: 0.1
+    #   max_linear_velocity: 0.3
+    #   max_angular_velocity: 1.0
+    #   step_size: 0.1
 
-    # Regulated Pure Pursuit controller
+    # Pure Pursuit parameters
+    # PurePursuit:
+    #   plugin: "bumperbot_motion::PurePursuit"
+    #   look_ahead_distance: 0.5
+    #   max_linear_velocity: 0.3
+    #   max_angular_velocity: 1.0
+    
+    # RPP parameters
     FollowPath:
       plugin: "nav2_regulated_pure_pursuit_controller::RegulatedPurePursuitController"
       desired_linear_vel: 0.3
@@ -68,12 +83,10 @@ local_costmap:
       resolution: 0.05
       robot_radius: 0.1
       plugins: ["obstacle_layer", "inflation_layer"]
-
       inflation_layer:
         plugin: "nav2_costmap_2d::InflationLayer"
         cost_scaling_factor: 3.0
         inflation_radius: 0.55
-
       obstacle_layer:
         plugin: "nav2_costmap_2d::ObstacleLayer"
         enabled: True
@@ -88,5 +101,4 @@ local_costmap:
           raytrace_min_range: 0.0
           obstacle_max_range: 2.5
           obstacle_min_range: 0.0
-
       always_send_full_costmap: True

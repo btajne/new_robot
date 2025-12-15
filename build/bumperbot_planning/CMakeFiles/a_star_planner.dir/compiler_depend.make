@@ -95,61 +95,10 @@ CMakeFiles/a_star_planner.dir/src/a_star_planner.cpp.o: /home/aarambh/my_robot_w
   /usr/include/c++/11/tr1/poly_hermite.tcc \
   /usr/include/c++/11/tr1/poly_laguerre.tcc \
   /usr/include/c++/11/tr1/riemann_zeta.tcc \
-  /usr/include/c++/11/queue \
-  /usr/include/c++/11/deque \
-  /usr/include/c++/11/bits/allocator.h \
-  /usr/include/aarch64-linux-gnu/c++/11/bits/c++allocator.h \
-  /usr/include/c++/11/ext/new_allocator.h \
-  /usr/include/c++/11/new \
-  /usr/include/c++/11/bits/exception.h \
-  /usr/include/c++/11/bits/memoryfwd.h \
-  /usr/include/c++/11/bits/stl_construct.h \
-  /usr/include/c++/11/bits/stl_uninitialized.h \
-  /usr/include/c++/11/ext/alloc_traits.h \
-  /usr/include/c++/11/bits/alloc_traits.h \
-  /usr/include/c++/11/bits/stl_deque.h \
-  /usr/include/c++/11/initializer_list \
-  /usr/include/c++/11/bits/range_access.h \
-  /usr/include/c++/11/bits/deque.tcc \
-  /usr/include/c++/11/vector \
-  /usr/include/c++/11/bits/stl_vector.h \
-  /usr/include/c++/11/bits/stl_bvector.h \
-  /usr/include/c++/11/bits/functional_hash.h \
-  /usr/include/c++/11/bits/hash_bytes.h \
-  /usr/include/c++/11/bits/vector.tcc \
-  /usr/include/c++/11/bits/stl_heap.h \
-  /usr/include/c++/11/bits/stl_function.h \
-  /usr/include/c++/11/backward/binders.h \
-  /usr/include/c++/11/bits/stl_queue.h \
-  /usr/include/c++/11/bits/uses_allocator.h \
-  /usr/include/c++/11/algorithm \
-  /usr/include/c++/11/utility \
-  /usr/include/c++/11/bits/stl_relops.h \
-  /usr/include/c++/11/bits/stl_algo.h \
-  /usr/include/c++/11/cstdlib \
-  /usr/include/c++/11/bits/algorithmfwd.h \
-  /usr/include/c++/11/bits/stl_tempbuf.h \
-  /usr/include/c++/11/bits/uniform_int_dist.h \
-  /usr/include/c++/11/pstl/glue_algorithm_defs.h \
-  /usr/include/c++/11/functional \
-  /usr/include/c++/11/tuple \
-  /usr/include/c++/11/array \
-  /usr/include/c++/11/bits/invoke.h \
-  /usr/include/c++/11/bits/refwrap.h \
-  /usr/include/c++/11/bits/std_function.h \
-  /usr/include/c++/11/typeinfo \
-  /usr/include/c++/11/unordered_map \
-  /usr/include/c++/11/ext/aligned_buffer.h \
-  /usr/include/c++/11/bits/hashtable.h \
-  /usr/include/c++/11/bits/hashtable_policy.h \
-  /usr/include/c++/11/bits/enable_special_members.h \
-  /usr/include/c++/11/bits/node_handle.h \
-  /usr/include/c++/11/bits/unordered_map.h \
-  /usr/include/c++/11/bits/erase_if.h \
-  /usr/include/c++/11/pstl/execution_defs.h \
   /home/aarambh/my_robot_ws/src/bumperbot_planning/include/bumperbot_planning/a_star_planner.hpp \
   /usr/include/c++/11/string \
   /usr/include/c++/11/bits/stringfwd.h \
+  /usr/include/c++/11/bits/memoryfwd.h \
   /usr/include/c++/11/bits/char_traits.h \
   /usr/include/c++/11/bits/postypes.h \
   /usr/include/c++/11/cwchar \
@@ -165,6 +114,11 @@ CMakeFiles/a_star_planner.dir/src/a_star_planner.cpp.o: /home/aarambh/my_robot_w
   /usr/lib/gcc/aarch64-linux-gnu/11/include/stdint.h \
   /usr/include/stdint.h \
   /usr/include/aarch64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/c++/11/bits/allocator.h \
+  /usr/include/aarch64-linux-gnu/c++/11/bits/c++allocator.h \
+  /usr/include/c++/11/ext/new_allocator.h \
+  /usr/include/c++/11/new \
+  /usr/include/c++/11/bits/exception.h \
   /usr/include/c++/11/bits/localefwd.h \
   /usr/include/aarch64-linux-gnu/c++/11/bits/c++locale.h \
   /usr/include/c++/11/clocale \
@@ -175,6 +129,10 @@ CMakeFiles/a_star_planner.dir/src/a_star_planner.cpp.o: /home/aarambh/my_robot_w
   /usr/include/ctype.h \
   /usr/include/c++/11/bits/ostream_insert.h \
   /usr/include/c++/11/bits/cxxabi_forced.h \
+  /usr/include/c++/11/bits/stl_function.h \
+  /usr/include/c++/11/backward/binders.h \
+  /usr/include/c++/11/bits/range_access.h \
+  /usr/include/c++/11/initializer_list \
   /usr/include/c++/11/bits/basic_string.h \
   /usr/include/c++/11/ext/atomicity.h \
   /usr/include/aarch64-linux-gnu/c++/11/bits/gthr.h \
@@ -194,9 +152,15 @@ CMakeFiles/a_star_planner.dir/src/a_star_planner.cpp.o: /home/aarambh/my_robot_w
   /usr/include/aarch64-linux-gnu/bits/pthread_stack_min-dynamic.h \
   /usr/include/aarch64-linux-gnu/c++/11/bits/atomic_word.h \
   /usr/include/aarch64-linux-gnu/sys/single_threaded.h \
+  /usr/include/c++/11/ext/alloc_traits.h \
+  /usr/include/c++/11/bits/alloc_traits.h \
+  /usr/include/c++/11/bits/stl_construct.h \
   /usr/include/c++/11/string_view \
+  /usr/include/c++/11/bits/functional_hash.h \
+  /usr/include/c++/11/bits/hash_bytes.h \
   /usr/include/c++/11/bits/string_view.tcc \
   /usr/include/c++/11/ext/string_conversions.h \
+  /usr/include/c++/11/cstdlib \
   /usr/include/c++/11/cstdio \
   /usr/include/stdio.h \
   /usr/include/aarch64-linux-gnu/bits/types/__fpos_t.h \
@@ -215,13 +179,24 @@ CMakeFiles/a_star_planner.dir/src/a_star_planner.cpp.o: /home/aarambh/my_robot_w
   /usr/include/c++/11/bits/charconv.h \
   /usr/include/c++/11/bits/basic_string.tcc \
   /usr/include/c++/11/memory \
+  /usr/include/c++/11/bits/stl_uninitialized.h \
+  /usr/include/c++/11/bits/stl_tempbuf.h \
   /usr/include/c++/11/bits/stl_raw_storage_iter.h \
   /usr/include/c++/11/bits/align.h \
   /usr/include/c++/11/bit \
+  /usr/include/c++/11/bits/uses_allocator.h \
   /usr/include/c++/11/bits/unique_ptr.h \
+  /usr/include/c++/11/utility \
+  /usr/include/c++/11/bits/stl_relops.h \
+  /usr/include/c++/11/tuple \
+  /usr/include/c++/11/array \
+  /usr/include/c++/11/bits/invoke.h \
   /usr/include/c++/11/bits/shared_ptr.h \
   /usr/include/c++/11/bits/shared_ptr_base.h \
+  /usr/include/c++/11/typeinfo \
   /usr/include/c++/11/bits/allocated_ptr.h \
+  /usr/include/c++/11/bits/refwrap.h \
+  /usr/include/c++/11/ext/aligned_buffer.h \
   /usr/include/c++/11/ext/concurrence.h \
   /usr/include/c++/11/exception \
   /usr/include/c++/11/bits/exception_ptr.h \
@@ -232,6 +207,7 @@ CMakeFiles/a_star_planner.dir/src/a_star_planner.cpp.o: /home/aarambh/my_robot_w
   /usr/include/c++/11/bits/atomic_lockfree_defines.h \
   /usr/include/c++/11/backward/auto_ptr.h \
   /usr/include/c++/11/pstl/glue_memory_defs.h \
+  /usr/include/c++/11/pstl/execution_defs.h \
   /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp \
   /usr/include/c++/11/csignal \
   /usr/include/signal.h \
@@ -298,15 +274,34 @@ CMakeFiles/a_star_planner.dir/src/a_star_planner.cpp.o: /home/aarambh/my_robot_w
   /usr/include/c++/11/condition_variable \
   /usr/include/c++/11/atomic \
   /usr/include/c++/11/bits/atomic_futex.h \
+  /usr/include/c++/11/bits/std_function.h \
   /usr/include/c++/11/bits/std_thread.h \
   /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp \
   /usr/include/c++/11/set \
   /usr/include/c++/11/bits/stl_tree.h \
+  /usr/include/c++/11/bits/node_handle.h \
   /usr/include/c++/11/bits/stl_set.h \
   /usr/include/c++/11/bits/stl_multiset.h \
+  /usr/include/c++/11/bits/erase_if.h \
   /usr/include/c++/11/thread \
   /usr/include/c++/11/bits/this_thread_sleep.h \
+  /usr/include/c++/11/unordered_map \
+  /usr/include/c++/11/bits/hashtable.h \
+  /usr/include/c++/11/bits/hashtable_policy.h \
+  /usr/include/c++/11/bits/enable_special_members.h \
+  /usr/include/c++/11/bits/unordered_map.h \
   /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp \
+  /usr/include/c++/11/algorithm \
+  /usr/include/c++/11/bits/stl_algo.h \
+  /usr/include/c++/11/bits/algorithmfwd.h \
+  /usr/include/c++/11/bits/stl_heap.h \
+  /usr/include/c++/11/bits/uniform_int_dist.h \
+  /usr/include/c++/11/pstl/glue_algorithm_defs.h \
+  /usr/include/c++/11/functional \
+  /usr/include/c++/11/vector \
+  /usr/include/c++/11/bits/stl_vector.h \
+  /usr/include/c++/11/bits/stl_bvector.h \
+  /usr/include/c++/11/bits/vector.tcc \
   /usr/include/c++/11/cassert \
   /usr/include/assert.h \
   /usr/include/c++/11/iostream \
@@ -770,20 +765,23 @@ CMakeFiles/a_star_planner.dir/src/a_star_planner.cpp.o: /home/aarambh/my_robot_w
   /opt/ros/humble/include/rcl_action/rcl_action/goal_state_machine.h \
   /opt/ros/humble/include/rclcpp_action/rclcpp_action/server.hpp \
   /opt/ros/humble/include/rclcpp_action/rclcpp_action/server_goal_handle.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/point.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__builder.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__traits.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__type_support.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose_stamped.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp \
   /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__struct.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp \
-  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__builder.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__traits.hpp \
   /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__traits.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__traits.hpp \
-  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__traits.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__traits.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__type_support.hpp \
-  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
   /opt/ros/humble/include/nav2_core/global_planner.hpp \
   /opt/ros/humble/include/nav2_costmap_2d/nav2_costmap_2d/costmap_2d_ros.hpp \
   /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/polygon.h \
@@ -829,9 +827,11 @@ CMakeFiles/a_star_planner.dir/src/a_star_planner.cpp.o: /home/aarambh/my_robot_w
   /opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_node_impl.hpp \
   /opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_publisher.hpp \
   /opt/ros/humble/include/nav2_costmap_2d/nav2_costmap_2d/costmap_2d.hpp \
-  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/point.hpp \
-  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__builder.hpp \
-  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__type_support.hpp \
+  /usr/include/c++/11/queue \
+  /usr/include/c++/11/deque \
+  /usr/include/c++/11/bits/stl_deque.h \
+  /usr/include/c++/11/bits/deque.tcc \
+  /usr/include/c++/11/bits/stl_queue.h \
   /opt/ros/humble/include/nav_msgs/nav_msgs/msg/occupancy_grid.hpp \
   /opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__struct.hpp \
   /opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/map_meta_data__struct.hpp \
@@ -1077,6 +1077,10 @@ CMakeFiles/a_star_planner.dir/src/a_star_planner.cpp.o: /home/aarambh/my_robot_w
   /opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/path__builder.hpp \
   /opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/path__traits.hpp \
   /opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/path__type_support.hpp \
+  /opt/ros/humble/include/nav2_util/robot_utils.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/twist.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__builder.hpp \
+  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__type_support.hpp \
   /opt/ros/humble/include/nav2_msgs/nav2_msgs/action/smooth_path.hpp \
   /opt/ros/humble/include/nav2_msgs/nav2_msgs/action/detail/smooth_path__struct.hpp \
   /opt/ros/humble/include/action_msgs/action_msgs/srv/cancel_goal.hpp \
@@ -1095,8 +1099,6 @@ CMakeFiles/a_star_planner.dir/src/a_star_planner.cpp.o: /home/aarambh/my_robot_w
   /opt/ros/humble/include/pluginlib/pluginlib/class_list_macros.hpp
 
 
-/opt/ros/humble/include/nav2_msgs/nav2_msgs/action/detail/smooth_path__type_support.hpp:
-
 /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status_array__type_support.hpp:
 
 /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status_array__builder.hpp:
@@ -1112,6 +1114,12 @@ CMakeFiles/a_star_planner.dir/src/a_star_planner.cpp.o: /home/aarambh/my_robot_w
 /opt/ros/humble/include/nav2_msgs/nav2_msgs/action/detail/smooth_path__struct.hpp:
 
 /opt/ros/humble/include/nav2_msgs/nav2_msgs/action/smooth_path.hpp:
+
+/opt/ros/humble/include/nav2_msgs/nav2_msgs/action/detail/smooth_path__type_support.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__type_support.hpp:
+
+/opt/ros/humble/include/nav2_util/robot_utils.hpp:
 
 /opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/path__type_support.hpp:
 
@@ -1317,9 +1325,17 @@ CMakeFiles/a_star_planner.dir/src/a_star_planner.cpp.o: /home/aarambh/my_robot_w
 
 /opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__struct.hpp:
 
-/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__type_support.hpp:
+/usr/include/c++/11/bits/stl_queue.h:
 
-/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__builder.hpp:
+/usr/include/c++/11/bits/deque.tcc:
+
+/usr/include/c++/11/bits/stl_deque.h:
+
+/usr/include/c++/11/deque:
+
+/opt/ros/humble/include/tf2_msgs/tf2_msgs/msg/detail/tf_message__type_support.hpp:
+
+/usr/include/c++/11/queue:
 
 /opt/ros/humble/include/nav2_costmap_2d/nav2_costmap_2d/costmap_2d.hpp:
 
@@ -1377,13 +1393,9 @@ CMakeFiles/a_star_planner.dir/src/a_star_planner.cpp.o: /home/aarambh/my_robot_w
 
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/polygon.h:
 
-/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/rosidl_generator_cpp__visibility_control.hpp:
-
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__type_support.hpp:
 
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__traits.hpp:
-
-/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__traits.hpp:
 
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__traits.hpp:
 
@@ -1408,6 +1420,14 @@ CMakeFiles/a_star_planner.dir/src/a_star_planner.cpp.o: /home/aarambh/my_robot_w
 /opt/ros/humble/include/tf2/tf2/LinearMath/Vector3.hpp:
 
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose_stamped.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/rosidl_generator_cpp__visibility_control.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__type_support.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__traits.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__builder.hpp:
 
 /opt/ros/humble/include/rclcpp_action/rclcpp_action/server_goal_handle.hpp:
 
@@ -1715,6 +1735,8 @@ CMakeFiles/a_star_planner.dir/src/a_star_planner.cpp.o: /home/aarambh/my_robot_w
 
 /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/received_message_age.hpp:
 
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__builder.hpp:
+
 /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/constants.hpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp:
@@ -1753,11 +1775,37 @@ CMakeFiles/a_star_planner.dir/src/a_star_planner.cpp.o: /home/aarambh/my_robot_w
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__traits.hpp:
 
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__builder.hpp:
+/opt/ros/humble/include/rclcpp_action/rclcpp_action/types.hpp:
 
-/opt/ros/humble/include/rclcpp/rclcpp/qos_overriding_options.hpp:
+/usr/include/aarch64-linux-gnu/bits/getopt_core.h:
 
-/opt/ros/humble/include/rclcpp/rclcpp/detail/rmw_implementation_specific_payload.hpp:
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance_stamped__struct.hpp:
+
+/usr/include/aarch64-linux-gnu/bits/confname.h:
+
+/opt/ros/humble/include/action_msgs/action_msgs/srv/detail/cancel_goal__traits.hpp:
+
+/opt/ros/humble/include/tf2/tf2/utils.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/point_stamped.hpp:
+
+/opt/ros/humble/include/bond/bond/msg/detail/constants__struct.hpp:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/floating_point_range__struct.hpp:
+
+/usr/include/unistd.h:
+
+/opt/ros/humble/include/bondcpp/bondcpp/BondSM_sm.hpp:
+
+/usr/include/c++/11/bits/stl_algobase.h:
+
+/usr/include/c++/11/streambuf:
+
+/usr/include/aarch64-linux-gnu/bits/types/stack_t.h:
+
+/opt/ros/humble/include/nav2_util/node_thread.hpp:
+
+/usr/include/aarch64-linux-gnu/sys/ucontext.h:
 
 /usr/include/linux/stddef.h:
 
@@ -1775,9 +1823,13 @@ CMakeFiles/a_star_planner.dir/src/a_star_planner.cpp.o: /home/aarambh/my_robot_w
 
 /usr/include/asm-generic/bitsperlong.h:
 
+/usr/include/c++/11/bits/concept_check.h:
+
 /usr/include/asm-generic/types.h:
 
-/usr/include/c++/11/bits/concept_check.h:
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/wrench__builder.hpp:
+
+/usr/include/aarch64-linux-gnu/asm/types.h:
 
 /usr/include/aarch64-linux-gnu/asm/sigcontext.h:
 
@@ -1788,6 +1840,10 @@ CMakeFiles/a_star_planner.dir/src/a_star_planner.cpp.o: /home/aarambh/my_robot_w
 /usr/include/aarch64-linux-gnu/sys/select.h:
 
 /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/bounded_vector.hpp:
+
+/usr/include/aarch64-linux-gnu/sys/user.h:
+
+/opt/ros/humble/include/rcl/rcl/subscription.h:
 
 /usr/include/aarch64-linux-gnu/bits/types/siginfo_t.h:
 
@@ -1801,11 +1857,17 @@ CMakeFiles/a_star_planner.dir/src/a_star_planner.cpp.o: /home/aarambh/my_robot_w
 
 /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:
 
+/opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/node_interfaces/lifecycle_node_interface.hpp:
+
+/usr/include/aarch64-linux-gnu/bits/sigthread.h:
+
+/opt/ros/humble/include/pluginlib/pluginlib/class_loader_imp.hpp:
+
+/usr/include/c++/11/pstl/execution_defs.h:
+
+/usr/include/aarch64-linux-gnu/bits/procfs.h:
+
 /usr/include/c++/11/bits/shared_ptr_atomic.h:
-
-/opt/ros/humble/include/tf2_msgs/tf2_msgs/msg/detail/tf_message__type_support.hpp:
-
-/usr/include/c++/11/queue:
 
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/wrench_stamped__traits.hpp:
 
@@ -1821,9 +1883,37 @@ CMakeFiles/a_star_planner.dir/src/a_star_planner.cpp.o: /home/aarambh/my_robot_w
 
 /usr/include/c++/11/ext/concurrence.h:
 
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/vector3_stamped.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/polygon_stamped__type_support.h:
+
+/opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/sequential_synchronization.hpp:
+
+/opt/ros/humble/include/rcl_yaml_param_parser/rcl_yaml_param_parser/parser.h:
+
+/usr/include/c++/11/bits/invoke.h:
+
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point32__builder.hpp:
 
 /usr/include/c++/11/bits/unique_ptr.h:
+
+/usr/include/c++/11/bits/uses_allocator.h:
+
+/usr/include/c++/11/bits/unique_lock.h:
+
+/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:
+
+/usr/include/aarch64-linux-gnu/sys/time.h:
+
+/usr/include/c++/11/bits/align.h:
+
+/usr/include/c++/11/bits/stl_tempbuf.h:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance__struct.hpp:
+
+/usr/include/c++/11/bits/std_function.h:
+
+/usr/include/c++/11/bits/stl_uninitialized.h:
 
 /usr/include/c++/11/memory:
 
@@ -1845,6 +1935,10 @@ CMakeFiles/a_star_planner.dir/src/a_star_planner.cpp.o: /home/aarambh/my_robot_w
 
 /usr/include/aarch64-linux-gnu/c++/11/bits/ctype_base.h:
 
+/usr/include/c++/11/utility:
+
+/usr/include/c++/11/ios:
+
 /usr/include/aarch64-linux-gnu/bits/stdio_lim.h:
 
 /usr/include/c++/11/bits/stl_multiset.h:
@@ -1862,6 +1956,8 @@ CMakeFiles/a_star_planner.dir/src/a_star_planner.cpp.o: /home/aarambh/my_robot_w
 /opt/ros/humble/include/nav_msgs/nav_msgs/msg/occupancy_grid.hpp:
 
 /usr/include/c++/11/ext/string_conversions.h:
+
+/usr/include/c++/11/bits/functional_hash.h:
 
 /usr/include/c++/11/numeric:
 
@@ -1885,6 +1981,8 @@ CMakeFiles/a_star_planner.dir/src/a_star_planner.cpp.o: /home/aarambh/my_robot_w
 
 /usr/include/aarch64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
 
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__builder.hpp:
+
 /opt/ros/humble/include/lifecycle_msgs/lifecycle_msgs/msg/detail/transition_event__type_support.h:
 
 /usr/include/aarch64-linux-gnu/bits/types/struct_itimerspec.h:
@@ -1892,6 +1990,10 @@ CMakeFiles/a_star_planner.dir/src/a_star_planner.cpp.o: /home/aarambh/my_robot_w
 /usr/include/aarch64-linux-gnu/bits/timex.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp:
+
+/usr/include/strings.h:
+
+/usr/include/aarch64-linux-gnu/bits/sched.h:
 
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp:
 
@@ -1913,133 +2015,9 @@ CMakeFiles/a_star_planner.dir/src/a_star_planner.cpp.o: /home/aarambh/my_robot_w
 
 /usr/include/aarch64-linux-gnu/bits/siginfo-consts.h:
 
-/opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/detail/write_preferring_read_write_lock.hpp:
+/usr/include/c++/11/bits/range_access.h:
 
-/usr/include/c++/11/bits/ostream_insert.h:
-
-/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/polygon__struct.hpp:
-
-/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose_with_covariance.hpp:
-
-/usr/include/c++/11/iosfwd:
-
-/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__traits.hpp:
-
-/usr/include/c++/11/initializer_list:
-
-/usr/include/aarch64-linux-gnu/bits/locale.h:
-
-/usr/include/locale.h:
-
-/usr/include/aarch64-linux-gnu/bits/types/wint_t.h:
-
-/opt/ros/humble/include/nav2_msgs/nav2_msgs/srv/detail/clear_costmap_except_region__struct.hpp:
-
-/usr/include/c++/11/cerrno:
-
-/usr/include/c++/11/cstdio:
-
-/opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h:
-
-/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/wrench__builder.hpp:
-
-/usr/include/aarch64-linux-gnu/asm/types.h:
-
-/usr/include/stdint.h:
-
-/usr/include/c++/11/bits/erase_if.h:
-
-/usr/include/c++/11/bits/ptr_traits.h:
-
-/usr/include/time.h:
-
-/usr/include/aarch64-linux-gnu/bits/wctype-wchar.h:
-
-/usr/include/c++/11/cstdint:
-
-/usr/include/c++/11/bits/stl_pair.h:
-
-/usr/include/aarch64-linux-gnu/bits/types/__FILE.h:
-
-/opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_publisher.hpp:
-
-/usr/include/aarch64-linux-gnu/bits/signal_ext.h:
-
-/usr/lib/gcc/aarch64-linux-gnu/11/include/float.h:
-
-/usr/include/aarch64-linux-gnu/bits/wchar.h:
-
-/opt/ros/humble/include/rclcpp/rclcpp/experimental/buffers/intra_process_buffer.hpp:
-
-/usr/include/c++/11/string:
-
-/opt/ros/humble/include/pluginlib/pluginlib/class_loader_imp.hpp:
-
-/usr/include/c++/11/pstl/execution_defs.h:
-
-/usr/include/c++/11/bits/unordered_map.h:
-
-/usr/include/c++/11/bits/node_handle.h:
-
-/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__builder.hpp:
-
-/usr/include/c++/11/iostream:
-
-/usr/include/c++/11/bits/basic_ios.tcc:
-
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_value.hpp:
-
-/opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:
-
-/usr/include/c++/11/bits/hashtable_policy.h:
-
-/usr/include/c++/11/bits/stl_multimap.h:
-
-/usr/include/c++/11/cctype:
-
-/usr/include/c++/11/iomanip:
-
-/opt/ros/humble/include/action_msgs/action_msgs/srv/detail/cancel_goal__struct.h:
-
-/usr/include/c++/11/typeinfo:
-
-/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/vector3_stamped.hpp:
-
-/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/polygon_stamped__type_support.h:
-
-/opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/sequential_synchronization.hpp:
-
-/opt/ros/humble/include/rcl_yaml_param_parser/rcl_yaml_param_parser/parser.h:
-
-/usr/include/c++/11/bits/invoke.h:
-
-/usr/include/c++/11/stdexcept:
-
-/opt/ros/humble/include/rclcpp/rclcpp/detail/cpp_callback_trampoline.hpp:
-
-/usr/include/c++/11/bits/cxxabi_init_exception.h:
-
-/usr/include/wchar.h:
-
-/usr/include/c++/11/bits/uniform_int_dist.h:
-
-/usr/include/c++/11/bits/basic_ios.h:
-
-/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__traits.hpp:
-
-/usr/include/c++/11/bits/stl_tempbuf.h:
-
-/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance__struct.hpp:
-
-/usr/include/c++/11/bits/std_function.h:
-
-/usr/include/aarch64-linux-gnu/bits/types/__sigset_t.h:
-
-/usr/include/c++/11/bits/uses_allocator.h:
-
-/usr/include/c++/11/bits/unique_lock.h:
-
-/opt/ros/humble/include/rcl/rcl/types.h:
+/usr/include/c++/11/iterator:
 
 /usr/include/c++/11/bits/stl_function.h:
 
@@ -2047,11 +2025,31 @@ CMakeFiles/a_star_planner.dir/src/a_star_planner.cpp.o: /home/aarambh/my_robot_w
 
 /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:
 
-/usr/include/ctype.h:
+/usr/include/c++/11/ext/alloc_traits.h:
 
-/usr/include/c++/11/locale:
+/usr/include/c++/11/bits/algorithmfwd.h:
 
-/opt/ros/humble/include/rmw/rmw/types.h:
+/usr/include/c++/11/bits/cxxabi_forced.h:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__traits.hpp:
+
+/usr/include/c++/11/initializer_list:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/polygon__struct.hpp:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose_with_covariance.hpp:
+
+/usr/include/c++/11/iosfwd:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/wrench_stamped__type_support.hpp:
+
+/usr/include/c++/11/sstream:
+
+/usr/include/aarch64-linux-gnu/bits/types/__sigset_t.h:
+
+/opt/ros/humble/include/rcl/rcl/types.h:
+
+/usr/include/c++/11/bits/stl_pair.h:
 
 /opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__type_support.hpp:
 
@@ -2075,6 +2073,10 @@ CMakeFiles/a_star_planner.dir/src/a_star_planner.cpp.o: /home/aarambh/my_robot_w
 
 /usr/include/aarch64-linux-gnu/bits/types/time_t.h:
 
+/opt/ros/humble/include/nav2_msgs/nav2_msgs/srv/detail/clear_costmap_except_region__struct.hpp:
+
+/usr/include/c++/11/cerrno:
+
 /opt/ros/humble/include/class_loader/class_loader/visibility_control.hpp:
 
 /usr/include/c++/11/bits/stl_raw_storage_iter.h:
@@ -2086,6 +2088,10 @@ CMakeFiles/a_star_planner.dir/src/a_star_planner.cpp.o: /home/aarambh/my_robot_w
 /usr/include/c++/11/tr1/hypergeometric.tcc:
 
 /opt/ros/humble/include/rclcpp/rclcpp/expand_topic_or_service_name.hpp:
+
+/usr/include/c++/11/bits/stl_relops.h:
+
+/usr/include/aarch64-linux-gnu/bits/getopt_posix.h:
 
 /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__struct.hpp:
 
@@ -2099,29 +2105,7 @@ CMakeFiles/a_star_planner.dir/src/a_star_planner.cpp.o: /home/aarambh/my_robot_w
 
 /usr/include/c++/11/bits/quoted_string.h:
 
-/opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_info__type_support.h:
-
-/opt/ros/humble/include/rcutils/rcutils/logging_macros.h:
-
-/usr/include/aarch64-linux-gnu/c++/11/bits/os_defines.h:
-
 /opt/ros/humble/include/rcl/rcl/publisher.h:
-
-/opt/ros/humble/include/nav2_costmap_2d/nav2_costmap_2d/clear_costmap_service.hpp:
-
-/usr/include/c++/11/bits/stl_algo.h:
-
-/opt/ros/humble/include/rclcpp_action/rclcpp_action/rclcpp_action.hpp:
-
-/usr/include/c++/11/array:
-
-/usr/include/aarch64-linux-gnu/bits/types/struct_sched_param.h:
-
-/usr/include/kdl/utilities/utility.h:
-
-/usr/include/aarch64-linux-gnu/asm/sve_context.h:
-
-/usr/include/aarch64-linux-gnu/bits/types/timer_t.h:
 
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/point.hpp:
 
@@ -2147,6 +2131,10 @@ CMakeFiles/a_star_planner.dir/src/a_star_planner.cpp.o: /home/aarambh/my_robot_w
 
 /usr/include/aarch64-linux-gnu/sys/types.h:
 
+/opt/ros/humble/include/rclcpp/rclcpp/experimental/buffers/intra_process_buffer.hpp:
+
+/usr/include/c++/11/string:
+
 /opt/ros/humble/include/rcpputils/rcpputils/pointer_traits.hpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__traits.hpp:
@@ -2161,6 +2149,20 @@ CMakeFiles/a_star_planner.dir/src/a_star_planner.cpp.o: /home/aarambh/my_robot_w
 
 /usr/include/aarch64-linux-gnu/bits/pthreadtypes.h:
 
+/usr/include/c++/11/cstdlib:
+
+/usr/include/aarch64-linux-gnu/bits/types/struct_timeval.h:
+
+/opt/ros/humble/include/rcutils/rcutils/types/string_map.h:
+
+/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/get_node_parameters_interface.hpp:
+
+/usr/include/c++/11/tr1/poly_laguerre.tcc:
+
+/opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/detail/write_preferring_read_write_lock.hpp:
+
+/usr/include/c++/11/bits/ostream_insert.h:
+
 /usr/include/stdlib.h:
 
 /usr/include/aarch64-linux-gnu/bits/types/struct_tm.h:
@@ -2173,13 +2175,21 @@ CMakeFiles/a_star_planner.dir/src/a_star_planner.cpp.o: /home/aarambh/my_robot_w
 
 /opt/ros/humble/include/rclcpp/rclcpp/init_options.hpp:
 
+/usr/include/c++/11/bits/stl_numeric.h:
+
+/usr/include/linux/close_range.h:
+
+/opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_info__traits.hpp:
+
+/opt/ros/humble/include/rcl/rcl/init_options.h:
+
+/opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_info__struct.h:
+
+/opt/ros/humble/include/rcpputils/rcpputils/join.hpp:
+
 /opt/ros/humble/include/tracetools/tracetools/config.h:
 
 /usr/include/c++/11/debug/assertions.h:
-
-/usr/include/c++/11/bits/enable_special_members.h:
-
-/usr/include/aarch64-linux-gnu/bits/mathcalls-narrow.h:
 
 /usr/include/aarch64-linux-gnu/bits/types/__sigval_t.h:
 
@@ -2189,37 +2199,31 @@ CMakeFiles/a_star_planner.dir/src/a_star_planner.cpp.o: /home/aarambh/my_robot_w
 
 /usr/include/c++/11/bits/allocator.h:
 
+/opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/path__traits.hpp:
+
+/usr/include/aarch64-linux-gnu/bits/floatn.h:
+
+/usr/include/aarch64-linux-gnu/bits/mathcalls.h:
+
 /usr/include/aarch64-linux-gnu/asm/bitsperlong.h:
 
 /opt/ros/humble/include/rmw/rmw/incompatible_qos_events_statuses.h:
-
-/usr/include/c++/11/vector:
 
 /usr/lib/gcc/aarch64-linux-gnu/11/include/syslimits.h:
 
 /usr/include/aarch64-linux-gnu/sys/cdefs.h:
 
-/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__builder.hpp:
+/usr/include/c++/11/bits/std_mutex.h:
 
-/usr/include/asm-generic/errno-base.h:
-
-/opt/ros/humble/include/rmw/rmw/subscription_options.h:
-
-/opt/ros/humble/include/rclcpp/rclcpp/wait_result_kind.hpp:
-
-/usr/include/aarch64-linux-gnu/gnu/stubs-lp64.h:
-
-/usr/include/aarch64-linux-gnu/bits/wordsize.h:
-
-/opt/ros/humble/include/nav2_msgs/nav2_msgs/msg/detail/costmap_meta_data__traits.hpp:
-
-/usr/include/c++/11/cassert:
-
-/usr/include/console_bridge/console.h:
-
-/usr/include/c++/11/bits/localefwd.h:
+/usr/include/aarch64-linux-gnu/bits/libc-header-start.h:
 
 /usr/include/aarch64-linux-gnu/bits/types/sigevent_t.h:
+
+/opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/detail/synchronization_policy_common.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/subscription_options.hpp:
+
+/usr/include/aarch64-linux-gnu/bits/unistd_ext.h:
 
 /usr/include/aarch64-linux-gnu/bits/byteswap.h:
 
@@ -2227,11 +2231,13 @@ CMakeFiles/a_star_planner.dir/src/a_star_planner.cpp.o: /home/aarambh/my_robot_w
 
 /usr/include/c++/11/tr1/bessel_function.tcc:
 
-/usr/include/c++/11/bits/codecvt.h:
-
-/opt/ros/humble/include/rmw/rmw/events_statuses/liveliness_lost.h:
-
 /usr/include/aarch64-linux-gnu/c++/11/bits/cxxabi_tweaks.h:
+
+/usr/include/stdint.h:
+
+/usr/include/c++/11/bits/ptr_traits.h:
+
+/usr/include/c++/11/bits/erase_if.h:
 
 /usr/include/aarch64-linux-gnu/bits/floatn-common.h:
 
@@ -2241,11 +2247,19 @@ CMakeFiles/a_star_planner.dir/src/a_star_planner.cpp.o: /home/aarambh/my_robot_w
 
 /usr/include/aarch64-linux-gnu/bits/types/__locale_t.h:
 
-/usr/include/c++/11/bits/exception_ptr.h:
+/opt/ros/humble/include/nav2_costmap_2d/nav2_costmap_2d/layered_costmap.hpp:
 
-/usr/include/c++/11/bits/charconv.h:
+/usr/include/c++/11/bits/string_view.tcc:
 
-/usr/include/math.h:
+/usr/include/c++/11/bits/hash_bytes.h:
+
+/opt/ros/humble/include/rcl_action/rcl_action/goal_state_machine.h:
+
+/usr/include/c++/11/bits/move.h:
+
+/usr/include/aarch64-linux-gnu/c++/11/bits/ctype_inline.h:
+
+/usr/include/aarch64-linux-gnu/bits/locale.h:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__struct.hpp:
 
@@ -2253,11 +2267,21 @@ CMakeFiles/a_star_planner.dir/src/a_star_planner.cpp.o: /home/aarambh/my_robot_w
 
 /usr/include/c++/11/cstring:
 
-/usr/include/c++/11/deque:
-
 /usr/include/aarch64-linux-gnu/bits/stdint-intn.h:
 
 /usr/include/aarch64-linux-gnu/bits/fp-logb.h:
+
+/opt/ros/humble/include/action_msgs/action_msgs/srv/detail/cancel_goal__struct.h:
+
+/usr/include/c++/11/typeinfo:
+
+/usr/include/aarch64-linux-gnu/bits/types/wint_t.h:
+
+/usr/include/locale.h:
+
+/usr/include/c++/11/backward/auto_ptr.h:
+
+/usr/include/aarch64-linux-gnu/bits/flt-eval-method.h:
 
 /opt/ros/humble/include/lifecycle_msgs/lifecycle_msgs/msg/rosidl_generator_c__visibility_control.h:
 
@@ -2267,7 +2291,13 @@ CMakeFiles/a_star_planner.dir/src/a_star_planner.cpp.o: /home/aarambh/my_robot_w
 
 /usr/include/aarch64-linux-gnu/bits/procfs-extra.h:
 
+/usr/include/c++/11/string_view:
+
+/usr/include/aarch64-linux-gnu/bits/sigstksz.h:
+
 /usr/include/c++/11/debug/debug.h:
+
+/usr/include/asm-generic/posix_types.h:
 
 /usr/include/stdc-predef.h:
 
@@ -2275,9 +2305,19 @@ CMakeFiles/a_star_planner.dir/src/a_star_planner.cpp.o: /home/aarambh/my_robot_w
 
 /usr/include/c++/11/bits/atomic_lockfree_defines.h:
 
-/usr/include/c++/11/bits/stl_bvector.h:
-
 /home/aarambh/my_robot_ws/src/bumperbot_planning/src/a_star_planner.cpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/experimental/executable_list.hpp:
+
+/usr/include/aarch64-linux-gnu/bits/types/mbstate_t.h:
+
+/usr/include/aarch64-linux-gnu/bits/posix_opt.h:
+
+/opt/ros/humble/include/action_msgs/action_msgs/msg/rosidl_generator_cpp__visibility_control.hpp:
+
+/usr/include/c++/11/bits/locale_conv.h:
+
+/usr/include/c++/11/backward/binders.h:
 
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/polygon_stamped__traits.hpp:
 
@@ -2301,41 +2341,19 @@ CMakeFiles/a_star_planner.dir/src/a_star_planner.cpp.o: /home/aarambh/my_robot_w
 
 /usr/include/c++/11/pstl/pstl_config.h:
 
-/opt/ros/humble/include/nav2_costmap_2d/nav2_costmap_2d/layered_costmap.hpp:
-
-/usr/include/c++/11/bits/string_view.tcc:
-
-/usr/include/aarch64-linux-gnu/c++/11/bits/ctype_inline.h:
-
-/usr/include/c++/11/bits/hash_bytes.h:
-
-/opt/ros/humble/include/rcl_action/rcl_action/goal_state_machine.h:
-
-/usr/include/c++/11/bits/move.h:
-
 /usr/include/c++/11/ext/type_traits.h:
 
 /usr/include/c++/11/future:
 
-/opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/path__struct.hpp:
-
-/opt/ros/humble/include/bond/bond/msg/detail/status__builder.hpp:
-
-/opt/ros/humble/include/rclcpp/rclcpp/wait_set.hpp:
-
-/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:
-
-/usr/include/c++/11/unordered_map:
-
-/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:
-
-/usr/include/c++/11/pstl/glue_algorithm_defs.h:
-
-/usr/include/aarch64-linux-gnu/bits/types/sigval_t.h:
-
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__struct.hpp:
 
 /usr/include/c++/11/ext/numeric_traits.h:
+
+/opt/ros/humble/include/rclcpp_action/rclcpp_action/rclcpp_action.hpp:
+
+/usr/include/c++/11/array:
+
+/usr/include/aarch64-linux-gnu/bits/types/struct_sched_param.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:
 
@@ -2343,9 +2361,9 @@ CMakeFiles/a_star_planner.dir/src/a_star_planner.cpp.o: /home/aarambh/my_robot_w
 
 /usr/include/c++/11/bits/atomic_base.h:
 
-/usr/include/c++/11/utility:
+/usr/lib/gcc/aarch64-linux-gnu/11/include/float.h:
 
-/usr/include/c++/11/ios:
+/usr/include/aarch64-linux-gnu/bits/wchar.h:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__type_support.hpp:
 
@@ -2354,10 +2372,6 @@ CMakeFiles/a_star_planner.dir/src/a_star_planner.cpp.o: /home/aarambh/my_robot_w
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp:
 
 /usr/include/aarch64-linux-gnu/asm/posix_types.h:
-
-/usr/include/aarch64-linux-gnu/bits/siginfo-arch.h:
-
-/usr/include/c++/11/bits/hashtable.h:
 
 /usr/include/aarch64-linux-gnu/bits/types.h:
 
@@ -2383,10 +2397,6 @@ CMakeFiles/a_star_planner.dir/src/a_star_planner.cpp.o: /home/aarambh/my_robot_w
 
 /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/message_type_support_decl.hpp:
 
-/usr/include/aarch64-linux-gnu/bits/sched.h:
-
-/usr/include/strings.h:
-
 /usr/include/aarch64-linux-gnu/bits/uintn-identity.h:
 
 /usr/include/aarch64-linux-gnu/bits/time.h:
@@ -2403,33 +2413,15 @@ CMakeFiles/a_star_planner.dir/src/a_star_planner.cpp.o: /home/aarambh/my_robot_w
 
 /usr/include/c++/11/bits/functexcept.h:
 
+/usr/include/aarch64-linux-gnu/bits/ss_flags.h:
+
 /usr/lib/gcc/aarch64-linux-gnu/11/include/stdarg.h:
 
 /usr/include/c++/11/bits/specfun.h:
 
-/opt/ros/humble/include/tf2/tf2/buffer_core.hpp:
-
-/usr/include/c++/11/cwchar:
-
-/opt/ros/humble/include/bondcpp/bondcpp/BondSM_sm.hpp:
-
-/usr/include/c++/11/bits/stl_algobase.h:
-
-/opt/ros/humble/include/action_msgs/action_msgs/srv/detail/cancel_goal__traits.hpp:
-
-/opt/ros/humble/include/tf2/tf2/utils.hpp:
-
-/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/point_stamped.hpp:
-
-/opt/ros/humble/include/bond/bond/msg/detail/constants__struct.hpp:
-
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/floating_point_range__struct.hpp:
-
-/usr/include/unistd.h:
+/usr/include/c++/11/tr1/beta_function.tcc:
 
 /usr/include/aarch64-linux-gnu/bits/types/FILE.h:
-
-/usr/include/c++/11/tr1/beta_function.tcc:
 
 /usr/include/aarch64-linux-gnu/bits/waitstatus.h:
 
@@ -2443,10 +2435,6 @@ CMakeFiles/a_star_planner.dir/src/a_star_planner.cpp.o: /home/aarambh/my_robot_w
 
 /usr/include/c++/11/tr1/riemann_zeta.tcc:
 
-/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/wrench_stamped__type_support.hpp:
-
-/usr/include/c++/11/sstream:
-
 /opt/ros/humble/include/tf2/tf2/LinearMath/Quaternion.hpp:
 
 /usr/include/aarch64-linux-gnu/bits/fp-fast.h:
@@ -2455,33 +2443,27 @@ CMakeFiles/a_star_planner.dir/src/a_star_planner.cpp.o: /home/aarambh/my_robot_w
 
 /opt/ros/humble/include/rclcpp/rclcpp/event.hpp:
 
-/opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:
+/opt/ros/humble/include/rmw/rmw/types.h:
 
-/usr/include/c++/11/bits/align.h:
+/usr/include/ctype.h:
 
-/usr/include/aarch64-linux-gnu/sys/time.h:
+/usr/include/c++/11/locale:
 
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__type_support.hpp:
+/opt/ros/humble/include/nav2_costmap_2d/nav2_costmap_2d/clear_costmap_service.hpp:
 
-/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/get_node_timers_interface.hpp:
+/usr/include/c++/11/bits/stl_algo.h:
 
-/home/aarambh/my_robot_ws/src/bumperbot_planning/include/bumperbot_planning/a_star_planner.hpp:
+/usr/include/kdl/utilities/utility.h:
 
-/usr/include/c++/11/ext/new_allocator.h:
+/usr/include/aarch64-linux-gnu/asm/sve_context.h:
 
-/usr/include/aarch64-linux-gnu/bits/flt-eval-method.h:
-
-/usr/include/c++/11/backward/auto_ptr.h:
-
-/usr/include/c++/11/bits/stl_uninitialized.h:
+/usr/include/aarch64-linux-gnu/bits/types/timer_t.h:
 
 /usr/include/c++/11/bits/predefined_ops.h:
 
 /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__traits.hpp:
 
 /opt/ros/humble/include/rmw/rmw/time.h:
-
-/usr/include/c++/11/bits/stl_queue.h:
 
 /usr/include/aarch64-linux-gnu/c++/11/bits/cpu_defines.h:
 
@@ -2495,10 +2477,6 @@ CMakeFiles/a_star_planner.dir/src/a_star_planner.cpp.o: /home/aarambh/my_robot_w
 
 /usr/include/c++/11/tr1/gamma.tcc:
 
-/usr/include/c++/11/bits/postypes.h:
-
-/usr/include/c++/11/tr1/special_function_util.h:
-
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point_stamped__builder.hpp:
 
 /opt/ros/humble/include/rcpputils/rcpputils/thread_safety_annotations.hpp:
@@ -2510,6 +2488,14 @@ CMakeFiles/a_star_planner.dir/src/a_star_planner.cpp.o: /home/aarambh/my_robot_w
 /usr/include/c++/11/tr1/ell_integral.tcc:
 
 /usr/include/c++/11/tr1/legendre_function.tcc:
+
+/usr/include/c++/11/ext/new_allocator.h:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__type_support.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/get_node_timers_interface.hpp:
+
+/home/aarambh/my_robot_ws/src/bumperbot_planning/include/bumperbot_planning/a_star_planner.hpp:
 
 /opt/ros/humble/include/tf2/tf2/transform_storage.hpp:
 
@@ -2524,6 +2510,70 @@ CMakeFiles/a_star_planner.dir/src/a_star_planner.cpp.o: /home/aarambh/my_robot_w
 /opt/ros/humble/include/rclcpp/rclcpp/typesupport_helpers.hpp:
 
 /usr/include/c++/11/tr1/poly_hermite.tcc:
+
+/usr/include/c++/11/bits/stringfwd.h:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3_stamped__builder.hpp:
+
+/usr/include/asm-generic/errno-base.h:
+
+/opt/ros/humble/include/rmw/rmw/subscription_options.h:
+
+/opt/ros/humble/include/rclcpp/rclcpp/wait_result_kind.hpp:
+
+/usr/include/aarch64-linux-gnu/gnu/stubs-lp64.h:
+
+/usr/include/aarch64-linux-gnu/bits/wordsize.h:
+
+/opt/ros/humble/include/nav2_msgs/nav2_msgs/msg/detail/costmap_meta_data__traits.hpp:
+
+/usr/include/c++/11/cassert:
+
+/usr/include/c++/11/tr1/special_function_util.h:
+
+/usr/include/c++/11/bits/postypes.h:
+
+/opt/ros/humble/include/tf2/tf2/buffer_core.hpp:
+
+/usr/include/c++/11/cwchar:
+
+/usr/include/c++/11/bits/cxxabi_init_exception.h:
+
+/usr/include/wchar.h:
+
+/usr/include/c++/11/bits/exception_ptr.h:
+
+/usr/include/math.h:
+
+/usr/include/c++/11/bits/charconv.h:
+
+/opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_info__type_support.h:
+
+/usr/include/aarch64-linux-gnu/c++/11/bits/os_defines.h:
+
+/opt/ros/humble/include/rcutils/rcutils/logging_macros.h:
+
+/usr/include/aarch64-linux-gnu/bits/types/__FILE.h:
+
+/opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/lifecycle_publisher.hpp:
+
+/usr/include/aarch64-linux-gnu/bits/signal_ext.h:
+
+/usr/include/c++/11/cstdint:
+
+/usr/include/time.h:
+
+/usr/include/aarch64-linux-gnu/bits/wctype-wchar.h:
+
+/opt/ros/humble/include/smclib/smclib/statemap.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_topics_interface.hpp:
+
+/usr/include/aarch64-linux-gnu/bits/types/struct_sigstack.h:
+
+/usr/include/c++/11/cstdio:
+
+/opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h:
 
 /opt/ros/humble/include/nav2_costmap_2d/nav2_costmap_2d/costmap_2d_ros.hpp:
 
@@ -2545,9 +2595,9 @@ CMakeFiles/a_star_planner.dir/src/a_star_planner.cpp.o: /home/aarambh/my_robot_w
 
 /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status_array__traits.hpp:
 
-/usr/include/aarch64-linux-gnu/bits/endianness.h:
-
 /usr/include/aarch64-linux-gnu/bits/thread-shared-types.h:
+
+/usr/include/aarch64-linux-gnu/bits/endianness.h:
 
 /usr/include/c++/11/bits/sstream.tcc:
 
@@ -2561,127 +2611,15 @@ CMakeFiles/a_star_planner.dir/src/a_star_planner.cpp.o: /home/aarambh/my_robot_w
 
 /opt/ros/humble/include/rmw/rmw/get_topic_names_and_types.h:
 
-/usr/include/c++/11/bits/range_access.h:
+/usr/include/console_bridge/console.h:
 
-/usr/include/c++/11/iterator:
+/usr/include/c++/11/bits/localefwd.h:
 
-/usr/include/c++/11/bits/stringfwd.h:
+/usr/include/c++/11/bits/stl_multimap.h:
 
-/usr/include/c++/11/bits/algorithmfwd.h:
+/usr/include/c++/11/cctype:
 
-/usr/include/c++/11/bits/cxxabi_forced.h:
-
-/opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/path__traits.hpp:
-
-/usr/include/aarch64-linux-gnu/bits/mathcalls.h:
-
-/usr/include/aarch64-linux-gnu/bits/floatn.h:
-
-/usr/include/c++/11/ext/alloc_traits.h:
-
-/usr/include/c++/11/bits/stl_deque.h:
-
-/usr/include/c++/11/bits/functional_hash.h:
-
-/usr/include/aarch64-linux-gnu/bits/types/__mbstate_t.h:
-
-/usr/include/c++/11/bits/vector.tcc:
-
-/usr/include/c++/11/bits/deque.tcc:
-
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__struct.hpp:
-
-/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:
-
-/usr/include/c++/11/backward/binders.h:
-
-/usr/include/c++/11/algorithm:
-
-/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/get_node_parameters_interface.hpp:
-
-/usr/include/c++/11/tr1/poly_laguerre.tcc:
-
-/usr/include/aarch64-linux-gnu/bits/libc-header-start.h:
-
-/usr/include/c++/11/bits/std_mutex.h:
-
-/usr/include/c++/11/cstdlib:
-
-/usr/include/aarch64-linux-gnu/bits/types/struct_timeval.h:
-
-/opt/ros/humble/include/rcutils/rcutils/types/string_map.h:
-
-/usr/include/asm-generic/posix_types.h:
-
-/usr/include/aarch64-linux-gnu/bits/types/stack_t.h:
-
-/opt/ros/humble/include/nav2_util/node_thread.hpp:
-
-/usr/include/aarch64-linux-gnu/sys/ucontext.h:
-
-/usr/include/aarch64-linux-gnu/sys/user.h:
-
-/opt/ros/humble/include/rcl/rcl/subscription.h:
-
-/usr/include/aarch64-linux-gnu/bits/procfs.h:
-
-/usr/include/c++/11/streambuf:
-
-/usr/include/c++/11/string_view:
-
-/usr/include/aarch64-linux-gnu/bits/sigstksz.h:
-
-/opt/ros/humble/include/rclcpp/rclcpp/experimental/executable_list.hpp:
-
-/usr/include/aarch64-linux-gnu/bits/types/mbstate_t.h:
-
-/usr/include/aarch64-linux-gnu/bits/posix_opt.h:
-
-/opt/ros/humble/include/action_msgs/action_msgs/msg/rosidl_generator_cpp__visibility_control.hpp:
-
-/usr/include/c++/11/bits/locale_conv.h:
-
-/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance_stamped__struct.hpp:
-
-/usr/include/aarch64-linux-gnu/bits/confname.h:
-
-/usr/include/c++/11/bits/stl_relops.h:
-
-/usr/include/aarch64-linux-gnu/bits/getopt_posix.h:
-
-/opt/ros/humble/include/rclcpp_action/rclcpp_action/types.hpp:
-
-/usr/include/aarch64-linux-gnu/bits/getopt_core.h:
-
-/opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/detail/synchronization_policy_common.hpp:
-
-/opt/ros/humble/include/rclcpp/rclcpp/subscription_options.hpp:
-
-/usr/include/aarch64-linux-gnu/bits/unistd_ext.h:
-
-/usr/include/c++/11/bits/stl_numeric.h:
-
-/usr/include/linux/close_range.h:
-
-/opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_info__traits.hpp:
-
-/opt/ros/humble/include/rcl/rcl/init_options.h:
-
-/opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_info__struct.h:
-
-/opt/ros/humble/include/rcpputils/rcpputils/join.hpp:
-
-/usr/include/aarch64-linux-gnu/bits/ss_flags.h:
-
-/opt/ros/humble/include/smclib/smclib/statemap.hpp:
-
-/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_topics_interface.hpp:
-
-/usr/include/aarch64-linux-gnu/bits/types/struct_sigstack.h:
-
-/opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/node_interfaces/lifecycle_node_interface.hpp:
-
-/usr/include/aarch64-linux-gnu/bits/sigthread.h:
+/usr/include/c++/11/iomanip:
 
 /opt/ros/humble/include/nav2_msgs/nav2_msgs/srv/detail/clear_costmap_except_region__type_support.hpp:
 
@@ -2699,9 +2637,9 @@ CMakeFiles/a_star_planner.dir/src/a_star_planner.cpp.o: /home/aarambh/my_robot_w
 
 /usr/include/c++/11/bits/parse_numbers.h:
 
-/usr/include/features-time64.h:
-
 /usr/include/aarch64-linux-gnu/bits/procfs-prregset.h:
+
+/usr/include/features-time64.h:
 
 /usr/include/c++/11/system_error:
 
@@ -2712,6 +2650,14 @@ CMakeFiles/a_star_planner.dir/src/a_star_planner.cpp.o: /home/aarambh/my_robot_w
 /opt/ros/humble/include/rcpputils/rcpputils/filesystem_helper.hpp:
 
 /usr/include/aarch64-linux-gnu/c++/11/bits/error_constants.h:
+
+/usr/include/c++/11/stdexcept:
+
+/usr/include/aarch64-linux-gnu/bits/types/sigval_t.h:
+
+/usr/include/c++/11/pstl/glue_algorithm_defs.h:
+
+/opt/ros/humble/include/rclcpp/rclcpp/detail/cpp_callback_trampoline.hpp:
 
 /usr/include/c++/11/bits/regex_error.h:
 
@@ -2739,11 +2685,67 @@ CMakeFiles/a_star_planner.dir/src/a_star_planner.cpp.o: /home/aarambh/my_robot_w
 
 /usr/include/aarch64-linux-gnu/c++/11/bits/messages_members.h:
 
+/usr/include/c++/11/bits/node_handle.h:
+
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__builder.hpp:
+
+/usr/include/c++/11/iostream:
+
 /opt/ros/humble/include/rclcpp_lifecycle/rclcpp_lifecycle/transition.hpp:
 
 /usr/include/c++/11/bits/this_thread_sleep.h:
 
 /usr/include/c++/11/bits/locale_facets.tcc:
+
+/usr/include/aarch64-linux-gnu/bits/siginfo-arch.h:
+
+/usr/include/c++/11/bits/hashtable.h:
+
+/usr/include/c++/11/bits/hashtable_policy.h:
+
+/usr/include/aarch64-linux-gnu/bits/mathcalls-narrow.h:
+
+/usr/include/c++/11/bits/enable_special_members.h:
+
+/usr/include/c++/11/bits/basic_ios.tcc:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_value.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:
+
+/opt/ros/humble/include/rmw/rmw/events_statuses/liveliness_lost.h:
+
+/usr/include/c++/11/bits/codecvt.h:
+
+/usr/include/c++/11/bits/unordered_map.h:
+
+/usr/include/c++/11/algorithm:
+
+/usr/include/c++/11/bits/uniform_int_dist.h:
+
+/usr/include/c++/11/bits/basic_ios.h:
+
+/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__traits.hpp:
+
+/usr/include/c++/11/vector:
+
+/opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/path__struct.hpp:
+
+/opt/ros/humble/include/bond/bond/msg/detail/status__builder.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/wait_set.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:
+
+/usr/include/c++/11/unordered_map:
+
+/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:
+
+/usr/include/c++/11/bits/stl_bvector.h:
+
+/usr/include/aarch64-linux-gnu/bits/types/__mbstate_t.h:
+
+/usr/include/c++/11/bits/vector.tcc:
 
 /usr/include/c++/11/ostream:
 
@@ -2793,9 +2795,9 @@ CMakeFiles/a_star_planner.dir/src/a_star_planner.cpp.o: /home/aarambh/my_robot_w
 
 /opt/ros/humble/include/nav2_msgs/nav2_msgs/srv/detail/get_costmap__builder.hpp:
 
-/usr/include/c++/11/bits/alloc_traits.h:
-
 /usr/include/errno.h:
+
+/usr/include/c++/11/bits/alloc_traits.h:
 
 /opt/ros/humble/include/rcl/rcl/allocator.h:
 
@@ -2803,9 +2805,9 @@ CMakeFiles/a_star_planner.dir/src/a_star_planner.cpp.o: /home/aarambh/my_robot_w
 
 /usr/include/linux/types.h:
 
-/opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/traits.hpp:
-
 /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:
+
+/opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/traits.hpp:
 
 /opt/ros/humble/include/rcutils/rcutils/macros.h:
 
@@ -3009,6 +3011,8 @@ CMakeFiles/a_star_planner.dir/src/a_star_planner.cpp.o: /home/aarambh/my_robot_w
 
 /opt/ros/humble/include/rcl/rcl/time.h:
 
+/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/twist.hpp:
+
 /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance__type_support.hpp:
 
 /usr/include/aarch64-linux-gnu/bits/waitflags.h:
@@ -3082,6 +3086,10 @@ CMakeFiles/a_star_planner.dir/src/a_star_planner.cpp.o: /home/aarambh/my_robot_w
 /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_base_interface.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/time.hpp:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__struct.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:
 
@@ -3262,3 +3270,7 @@ CMakeFiles/a_star_planner.dir/src/a_star_planner.cpp.o: /home/aarambh/my_robot_w
 /usr/include/c++/11/thread:
 
 /opt/ros/humble/include/rclcpp/rclcpp/message_memory_strategy.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/detail/rmw_implementation_specific_payload.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/qos_overriding_options.hpp:

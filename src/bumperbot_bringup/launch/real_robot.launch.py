@@ -98,5 +98,5 @@ def generate_launch_description():
         imu_driver_node,
         localization,
         slam,
-        navigation
+        navigation,
     ])

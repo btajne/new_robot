@@ -5,7 +5,7 @@ set(bumperbot_firmware_BUILD_DEPENDS "rclcpp" "rclpy" "std_msgs" "hardware_inter
 set(bumperbot_firmware_BUILDTOOL_DEPENDS "ament_cmake" "ament_cmake_python")
 set(bumperbot_firmware_BUILD_EXPORT_DEPENDS "rclcpp" "rclpy" "std_msgs" "hardware_interface" "rclcpp_lifecycle" "pluginlib" "libserial-dev")
 set(bumperbot_firmware_BUILDTOOL_EXPORT_DEPENDS )
-set(bumperbot_firmware_EXEC_DEPENDS "python3-serial" "python3-smbus" "rclcpp" "rclpy" "std_msgs" "hardware_interface" "rclcpp_lifecycle" "pluginlib" "libserial-dev")
+set(bumperbot_firmware_EXEC_DEPENDS "python3-serial" "rclcpp" "rclpy" "std_msgs" "hardware_interface" "rclcpp_lifecycle" "pluginlib" "libserial-dev")
 set(bumperbot_firmware_TEST_DEPENDS "ament_lint_auto" "ament_lint_common")
 set(bumperbot_firmware_GROUP_DEPENDS )
 set(bumperbot_firmware_MEMBER_OF_GROUPS )
