@@ -3,7 +3,13 @@ rplidar_node:
     channel_type: serial
     serial_port: /dev/rplidar
     serial_baudrate: 115200
+
     frame_id: laser_link
     inverted: false
-    angle_compensate: true
-    scan_mode: Sensitivity
+
+    # 🔴 CRITICAL FIXES
+    angle_compensate: false
+    scan_mode: Standard
+
+    # 🔴 FORCE STABLE RATE
+    scan_frequency: 5.0
