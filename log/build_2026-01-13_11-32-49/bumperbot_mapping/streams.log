@@ -1,0 +1,61 @@
+[0.152s] Invoking command in '/home/aarambh/my_robot_ws/build/bumperbot_mapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aarambh/my_robot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/aarambh/my_robot_ws/build/bumperbot_mapping -- -j4 -l4
+[0.592s] [  0%] Built target ament_cmake_python_copy_bumperbot_mapping
+[0.736s] [100%] Built target mapping_with_known_poses
+[3.511s] running egg_info
+[3.516s] writing bumperbot_mapping.egg-info/PKG-INFO
+[3.519s] writing dependency_links to bumperbot_mapping.egg-info/dependency_links.txt
+[3.522s] writing top-level names to bumperbot_mapping.egg-info/top_level.txt
+[3.544s] reading manifest file 'bumperbot_mapping.egg-info/SOURCES.txt'
+[3.550s] writing manifest file 'bumperbot_mapping.egg-info/SOURCES.txt'
+[3.769s] [100%] Built target ament_cmake_python_build_bumperbot_mapping_egg
+[3.901s] Invoked command in '/home/aarambh/my_robot_ws/build/bumperbot_mapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aarambh/my_robot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/aarambh/my_robot_ws/build/bumperbot_mapping -- -j4 -l4
+[3.903s] Invoking command in '/home/aarambh/my_robot_ws/build/bumperbot_mapping': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aarambh/my_robot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/aarambh/my_robot_ws/build/bumperbot_mapping
+[4.001s] -- Install configuration: ""
+[4.013s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_mapping/share/bumperbot_mapping/environment/pythonpath.sh
+[4.015s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_mapping/share/bumperbot_mapping/environment/pythonpath.dsv
+[4.017s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_mapping/local/lib/python3.10/dist-packages/bumperbot_mapping-0.0.0-py3.10.egg-info
+[4.019s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_mapping/local/lib/python3.10/dist-packages/bumperbot_mapping-0.0.0-py3.10.egg-info/PKG-INFO
+[4.022s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_mapping/local/lib/python3.10/dist-packages/bumperbot_mapping-0.0.0-py3.10.egg-info/top_level.txt
+[4.025s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_mapping/local/lib/python3.10/dist-packages/bumperbot_mapping-0.0.0-py3.10.egg-info/dependency_links.txt
+[4.028s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_mapping/local/lib/python3.10/dist-packages/bumperbot_mapping-0.0.0-py3.10.egg-info/SOURCES.txt
+[4.031s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_mapping/local/lib/python3.10/dist-packages/bumperbot_mapping
+[4.045s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_mapping/local/lib/python3.10/dist-packages/bumperbot_mapping/__init__.py
+[4.047s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_mapping/local/lib/python3.10/dist-packages/bumperbot_mapping/mapping_with_known_poses.py
+[4.444s] Listing '/home/aarambh/my_robot_ws/install/bumperbot_mapping/local/lib/python3.10/dist-packages/bumperbot_mapping'...
+[4.504s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_mapping/include/include
+[4.506s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_mapping/include/include/bumperbot_mapping
+[4.507s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_mapping/include/include/bumperbot_mapping/mapping_with_known_poses.hpp
+[4.508s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_mapping/lib/bumperbot_mapping/mapping_with_known_poses
+[4.509s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_mapping/share/bumperbot_mapping/config
+[4.510s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_mapping/share/bumperbot_mapping/config/slam_toolbox.yaml
+[4.513s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_mapping/share/bumperbot_mapping/launch
+[4.515s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_mapping/share/bumperbot_mapping/launch/slam.launch.py
+[4.518s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_mapping/share/bumperbot_mapping/maps
+[4.529s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_mapping/share/bumperbot_mapping/maps/small_house
+[4.531s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_mapping/share/bumperbot_mapping/maps/small_house/map.pgm
+[4.532s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_mapping/share/bumperbot_mapping/maps/small_house/map.yaml
+[4.534s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_mapping/share/bumperbot_mapping/maps/my_maps
+[4.535s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_mapping/share/bumperbot_mapping/maps/my_maps/map.pgm
+[4.536s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_mapping/share/bumperbot_mapping/maps/my_maps/map.yaml
+[4.537s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_mapping/share/bumperbot_mapping/maps/small_warehouse
+[4.560s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_mapping/share/bumperbot_mapping/maps/small_warehouse/map.pgm
+[4.561s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_mapping/share/bumperbot_mapping/maps/small_warehouse/map.yaml
+[4.562s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_mapping/share/bumperbot_mapping/rviz
+[4.564s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_mapping/share/bumperbot_mapping/rviz/slam.rviz
+[4.565s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_mapping/lib/bumperbot_mapping/mapping_with_known_poses.py
+[4.567s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_mapping/share/ament_index/resource_index/package_run_dependencies/bumperbot_mapping
+[4.567s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_mapping/share/ament_index/resource_index/parent_prefix_path/bumperbot_mapping
+[4.568s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_mapping/share/bumperbot_mapping/environment/ament_prefix_path.sh
+[4.569s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_mapping/share/bumperbot_mapping/environment/ament_prefix_path.dsv
+[4.570s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_mapping/share/bumperbot_mapping/environment/path.sh
+[4.571s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_mapping/share/bumperbot_mapping/environment/path.dsv
+[4.585s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_mapping/share/bumperbot_mapping/local_setup.bash
+[4.588s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_mapping/share/bumperbot_mapping/local_setup.sh
+[4.600s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_mapping/share/bumperbot_mapping/local_setup.zsh
+[4.600s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_mapping/share/bumperbot_mapping/local_setup.dsv
+[4.601s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_mapping/share/bumperbot_mapping/package.dsv
+[4.602s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_mapping/share/ament_index/resource_index/packages/bumperbot_mapping
+[4.602s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_mapping/share/bumperbot_mapping/cmake/bumperbot_mappingConfig.cmake
+[4.603s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_mapping/share/bumperbot_mapping/cmake/bumperbot_mappingConfig-version.cmake
+[4.604s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_mapping/share/bumperbot_mapping/package.xml
+[4.604s] Invoked command in '/home/aarambh/my_robot_ws/build/bumperbot_mapping' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aarambh/my_robot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/aarambh/my_robot_ws/build/bumperbot_mapping
