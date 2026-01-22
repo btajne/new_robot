@@ -1,1 +1,1 @@
-/home/aarambh/my_robot_ws/install/bumperbot_msgs:/home/aarambh/new_robot/install/bumperbot_py_examples:/home/aarambh/new_robot/install/bumperbot_cpp_examples:/home/aarambh/new_robot/install/bumperbot_msgs:/home/aarambh/new_robot/install/bumperbot_localization:/home/aarambh/new_robot/install/bumperbot_firmware:/home/aarambh/new_robot/install/bumperbot_description:/home/aarambh/new_robot/install/bumperbot_controller:/home/aarambh/new_robot/install/bumperbot_bringup:/opt/ros/humble
+/home/aarambh/my_robot_ws/install/bumperbot_msgs:/opt/ros/humble

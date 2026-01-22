@@ -145,7 +145,7 @@ odometry_motion_model: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_c.so
 odometry_motion_model: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_cpp.so
 odometry_motion_model: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_cpp.so
 odometry_motion_model: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_cpp.so
-odometry_motion_model: /opt/ros/humble/lib/libfastcdr.so.1.0.24
+odometry_motion_model: /opt/ros/humble/lib/libfastcdr.so.1.0.29
 odometry_motion_model: /opt/ros/humble/lib/librmw.so
 odometry_motion_model: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_c.so
 odometry_motion_model: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so

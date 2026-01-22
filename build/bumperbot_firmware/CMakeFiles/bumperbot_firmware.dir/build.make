@@ -202,7 +202,7 @@ libbumperbot_firmware.so: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_c.s
 libbumperbot_firmware.so: /opt/ros/humble/lib/liblifecycle_msgs__rosidl_typesupport_introspection_c.so
 libbumperbot_firmware.so: /opt/ros/humble/lib/liblifecycle_msgs__rosidl_typesupport_fastrtps_cpp.so
 libbumperbot_firmware.so: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_cpp.so
-libbumperbot_firmware.so: /opt/ros/humble/lib/libfastcdr.so.1.0.24
+libbumperbot_firmware.so: /opt/ros/humble/lib/libfastcdr.so.1.0.29
 libbumperbot_firmware.so: /opt/ros/humble/lib/librmw.so
 libbumperbot_firmware.so: /opt/ros/humble/lib/liblifecycle_msgs__rosidl_typesupport_introspection_cpp.so
 libbumperbot_firmware.so: /opt/ros/humble/lib/librosidl_typesupport_introspection_cpp.so

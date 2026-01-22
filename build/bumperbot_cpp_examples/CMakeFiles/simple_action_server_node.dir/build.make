@@ -133,7 +133,7 @@ simple_action_server_node: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesup
 simple_action_server_node: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_cpp.so
 simple_action_server_node: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_cpp.so
 simple_action_server_node: /opt/ros/humble/lib/librmw.so
-simple_action_server_node: /opt/ros/humble/lib/libfastcdr.so.1.0.24
+simple_action_server_node: /opt/ros/humble/lib/libfastcdr.so.1.0.29
 simple_action_server_node: /opt/ros/humble/lib/libcomposition_interfaces__rosidl_typesupport_introspection_cpp.so
 simple_action_server_node: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_introspection_cpp.so
 simple_action_server_node: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so

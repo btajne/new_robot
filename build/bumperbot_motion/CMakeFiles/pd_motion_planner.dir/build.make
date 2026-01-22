@@ -374,7 +374,7 @@ libpd_motion_planner.so: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_c.so
 libpd_motion_planner.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so
 libpd_motion_planner.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_cpp.so
 libpd_motion_planner.so: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_cpp.so
-libpd_motion_planner.so: /opt/ros/humble/lib/libfastcdr.so.1.0.24
+libpd_motion_planner.so: /opt/ros/humble/lib/libfastcdr.so.1.0.29
 libpd_motion_planner.so: /opt/ros/humble/lib/librmw.so
 libpd_motion_planner.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so
 libpd_motion_planner.so: /opt/ros/humble/lib/librosidl_typesupport_introspection_cpp.so

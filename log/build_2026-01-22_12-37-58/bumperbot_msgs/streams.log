@@ -1,0 +1,209 @@
+[0.145s] Invoking command in '/home/aarambh/my_robot_ws/build/bumperbot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aarambh/my_robot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/aarambh/my_robot_ws/build/bumperbot_msgs -- -j4 -l4
+[0.593s] [  2%] Built target bumperbot_msgs__cpp
+[0.686s] [ 12%] Built target bumperbot_msgs__rosidl_generator_c
+[0.931s] [ 12%] Built target ament_cmake_python_copy_bumperbot_msgs
+[1.047s] [ 23%] Built target bumperbot_msgs__rosidl_typesupport_fastrtps_cpp
+[1.185s] [ 34%] Built target bumperbot_msgs__rosidl_typesupport_introspection_cpp
+[1.213s] [ 44%] Built target bumperbot_msgs__rosidl_typesupport_cpp
+[1.474s] [ 55%] Built target bumperbot_msgs__rosidl_typesupport_fastrtps_c
+[1.532s] [ 65%] Built target bumperbot_msgs__rosidl_typesupport_introspection_c
+[1.606s] [ 76%] Built target bumperbot_msgs__rosidl_typesupport_c
+[1.739s] [ 76%] Built target bumperbot_msgs
+[1.986s] [ 78%] Built target bumperbot_msgs__py
+[2.044s] [ 87%] Built target bumperbot_msgs__rosidl_generator_py
+[2.045s] [ 91%] Built target bumperbot_msgs__rosidl_typesupport_introspection_c__pyext
+[2.045s] [ 95%] Built target bumperbot_msgs__rosidl_typesupport_c__pyext
+[2.050s] [100%] Built target bumperbot_msgs__rosidl_typesupport_fastrtps_c__pyext
+[3.431s] running egg_info
+[3.434s] writing bumperbot_msgs.egg-info/PKG-INFO
+[3.436s] writing dependency_links to bumperbot_msgs.egg-info/dependency_links.txt
+[3.437s] writing top-level names to bumperbot_msgs.egg-info/top_level.txt
+[3.451s] reading manifest file 'bumperbot_msgs.egg-info/SOURCES.txt'
+[3.455s] writing manifest file 'bumperbot_msgs.egg-info/SOURCES.txt'
+[3.649s] [100%] Built target ament_cmake_python_build_bumperbot_msgs_egg
+[3.749s] Invoked command in '/home/aarambh/my_robot_ws/build/bumperbot_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aarambh/my_robot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/aarambh/my_robot_ws/build/bumperbot_msgs -- -j4 -l4
+[3.754s] Invoking command in '/home/aarambh/my_robot_ws/build/bumperbot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aarambh/my_robot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/aarambh/my_robot_ws/build/bumperbot_msgs
+[3.814s] -- Install configuration: ""
+[3.819s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/share/ament_index/resource_index/rosidl_interfaces/bumperbot_msgs
+[3.821s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs
+[3.823s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv
+[3.826s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail
+[3.828s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__functions.c
+[3.830s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__functions.h
+[3.836s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__functions.c
+[3.837s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__type_support.h
+[3.838s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__type_support.h
+[3.839s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__struct.h
+[3.840s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__functions.h
+[3.840s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__struct.h
+[3.842s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/get_transform.h
+[3.843s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/add_two_ints.h
+[3.844s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/msg
+[3.845s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/msg/rosidl_generator_c__visibility_control.h
+[3.855s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action
+[3.857s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action/fibonacci.h
+[3.858s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action/detail
+[3.858s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action/detail/fibonacci__type_support.h
+[3.859s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action/detail/fibonacci__functions.h
+[3.872s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action/detail/fibonacci__functions.c
+[3.873s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action/detail/fibonacci__struct.h
+[3.876s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/share/bumperbot_msgs/environment/library_path.sh
+[3.877s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/share/bumperbot_msgs/environment/library_path.dsv
+[3.880s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_generator_c.so
+[3.888s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs
+[3.890s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv
+[3.891s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail
+[3.908s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__rosidl_typesupport_fastrtps_c.h
+[3.911s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__rosidl_typesupport_fastrtps_c.h
+[3.913s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/msg
+[3.914s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.915s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action
+[3.917s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action/detail
+[3.921s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action/detail/fibonacci__rosidl_typesupport_fastrtps_c.h
+[3.922s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_typesupport_fastrtps_c.so
+[3.924s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs
+[3.925s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv
+[3.926s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/add_two_ints.hpp
+[3.927s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail
+[3.927s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__traits.hpp
+[3.928s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__struct.hpp
+[3.929s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__builder.hpp
+[3.929s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__builder.hpp
+[3.930s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__type_support.hpp
+[3.931s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__traits.hpp
+[3.932s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__type_support.hpp
+[3.932s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__struct.hpp
+[3.934s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/get_transform.hpp
+[3.935s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/msg
+[3.936s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[3.937s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action
+[3.937s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action/detail
+[3.939s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action/detail/fibonacci__type_support.hpp
+[3.940s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action/detail/fibonacci__builder.hpp
+[3.940s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action/detail/fibonacci__traits.hpp
+[3.943s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action/detail/fibonacci__struct.hpp
+[3.944s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action/fibonacci.hpp
+[3.945s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs
+[3.945s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv
+[3.946s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail
+[3.947s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__rosidl_typesupport_fastrtps_cpp.hpp
+[3.948s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__rosidl_typesupport_fastrtps_cpp.hpp
+[3.950s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/dds_fastrtps
+[3.951s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/msg
+[3.951s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.952s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action
+[3.953s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action/detail
+[3.956s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action/detail/fibonacci__rosidl_typesupport_fastrtps_cpp.hpp
+[3.958s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action/detail/dds_fastrtps
+[3.959s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_typesupport_fastrtps_cpp.so
+[3.961s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs
+[3.961s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv
+[3.963s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail
+[3.964s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__rosidl_typesupport_introspection_c.h
+[3.969s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__type_support.c
+[3.970s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__rosidl_typesupport_introspection_c.h
+[3.970s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__type_support.c
+[3.971s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/msg
+[3.971s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.971s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action
+[3.972s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action/detail
+[3.972s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action/detail/fibonacci__rosidl_typesupport_introspection_c.h
+[3.973s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action/detail/fibonacci__type_support.c
+[3.973s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_typesupport_introspection_c.so
+[3.978s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_typesupport_c.so
+[3.980s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs
+[3.980s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv
+[3.981s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail
+[3.981s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__rosidl_typesupport_introspection_cpp.hpp
+[3.982s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__rosidl_typesupport_introspection_cpp.hpp
+[3.982s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/add_two_ints__type_support.cpp
+[3.982s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/srv/detail/get_transform__type_support.cpp
+[3.983s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action
+[3.983s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action/detail
+[3.985s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action/detail/fibonacci__type_support.cpp
+[3.986s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/include/bumperbot_msgs/bumperbot_msgs/action/detail/fibonacci__rosidl_typesupport_introspection_cpp.hpp
+[3.988s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_typesupport_introspection_cpp.so
+[3.992s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_typesupport_cpp.so
+[3.994s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/share/bumperbot_msgs/environment/pythonpath.sh
+[3.995s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/share/bumperbot_msgs/environment/pythonpath.dsv
+[3.996s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs-0.0.0-py3.10.egg-info
+[3.997s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[3.998s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[3.998s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[3.999s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[4.002s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs
+[4.002s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs/bumperbot_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[4.004s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs/srv
+[4.006s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs/srv/_get_transform.py
+[4.007s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs/srv/_get_transform_s.c
+[4.007s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs/srv/_add_two_ints_s.c
+[4.008s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs/srv/__init__.py
+[4.009s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs/srv/_add_two_ints.py
+[4.010s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs/action
+[4.010s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs/action/__init__.py
+[4.011s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs/action/_fibonacci.py
+[4.011s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs/action/_fibonacci_s.c
+[4.011s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs/bumperbot_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[4.012s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs/__init__.py
+[4.014s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs/_bumperbot_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[4.015s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs/libbumperbot_msgs__rosidl_generator_py.so
+[4.017s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs/_bumperbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.019s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs/bumperbot_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[4.020s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs/_bumperbot_msgs_s.ep.rosidl_typesupport_c.c
+[4.150s] Listing '/home/aarambh/my_robot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs'...
+[4.151s] Listing '/home/aarambh/my_robot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs/action'...
+[4.152s] Listing '/home/aarambh/my_robot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs/srv'...
+[4.179s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs/bumperbot_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[4.182s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs/bumperbot_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[4.185s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/local/lib/python3.10/dist-packages/bumperbot_msgs/bumperbot_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[4.187s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/lib/libbumperbot_msgs__rosidl_generator_py.so
+[4.190s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/share/bumperbot_msgs/action/Fibonacci.idl
+[4.190s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/share/bumperbot_msgs/srv/AddTwoInts.idl
+[4.192s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/share/bumperbot_msgs/srv/GetTransform.idl
+[4.193s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/share/bumperbot_msgs/action/Fibonacci.action
+[4.196s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/share/bumperbot_msgs/srv/AddTwoInts.srv
+[4.204s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/share/bumperbot_msgs/srv/AddTwoInts_Request.msg
+[4.205s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/share/bumperbot_msgs/srv/AddTwoInts_Response.msg
+[4.206s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/share/bumperbot_msgs/srv/GetTransform.srv
+[4.208s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/share/bumperbot_msgs/srv/GetTransform_Request.msg
+[4.209s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/share/bumperbot_msgs/srv/GetTransform_Response.msg
+[4.211s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/share/ament_index/resource_index/package_run_dependencies/bumperbot_msgs
+[4.211s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/share/ament_index/resource_index/parent_prefix_path/bumperbot_msgs
+[4.213s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/share/bumperbot_msgs/environment/ament_prefix_path.sh
+[4.219s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/share/bumperbot_msgs/environment/ament_prefix_path.dsv
+[4.220s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/share/bumperbot_msgs/environment/path.sh
+[4.221s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/share/bumperbot_msgs/environment/path.dsv
+[4.221s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/share/bumperbot_msgs/local_setup.bash
+[4.222s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/share/bumperbot_msgs/local_setup.sh
+[4.223s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/share/bumperbot_msgs/local_setup.zsh
+[4.224s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/share/bumperbot_msgs/local_setup.dsv
+[4.225s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_msgs/share/bumperbot_msgs/package.dsv
+[4.228s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/share/ament_index/resource_index/packages/bumperbot_msgs
+[4.230s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/export_bumperbot_msgs__rosidl_generator_cExport.cmake
+[4.230s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/export_bumperbot_msgs__rosidl_generator_cExport-noconfig.cmake
+[4.232s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/export_bumperbot_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[4.238s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/export_bumperbot_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[4.239s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/export_bumperbot_msgs__rosidl_generator_cppExport.cmake
+[4.240s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/export_bumperbot_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.242s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/export_bumperbot_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[4.256s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/bumperbot_msgs__rosidl_typesupport_introspection_cExport.cmake
+[4.257s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/bumperbot_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.257s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/bumperbot_msgs__rosidl_typesupport_cExport.cmake
+[4.258s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/bumperbot_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[4.258s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/bumperbot_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[4.258s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/bumperbot_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.259s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/bumperbot_msgs__rosidl_typesupport_cppExport.cmake
+[4.259s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/bumperbot_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[4.260s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/export_bumperbot_msgs__rosidl_generator_pyExport.cmake
+[4.261s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/export_bumperbot_msgs__rosidl_generator_pyExport-noconfig.cmake
+[4.261s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/rosidl_cmake-extras.cmake
+[4.262s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.266s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.267s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[4.268s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[4.268s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.269s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.270s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/bumperbot_msgsConfig.cmake
+[4.270s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/share/bumperbot_msgs/cmake/bumperbot_msgsConfig-version.cmake
+[4.271s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_msgs/share/bumperbot_msgs/package.xml
+[4.272s] Invoked command in '/home/aarambh/my_robot_ws/build/bumperbot_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aarambh/my_robot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/aarambh/my_robot_ws/build/bumperbot_msgs

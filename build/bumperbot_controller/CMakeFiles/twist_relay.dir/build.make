@@ -140,7 +140,7 @@ twist_relay: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_intro
 twist_relay: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_cpp.so
 twist_relay: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_cpp.so
 twist_relay: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_cpp.so
-twist_relay: /opt/ros/humble/lib/libfastcdr.so.1.0.24
+twist_relay: /opt/ros/humble/lib/libfastcdr.so.1.0.29
 twist_relay: /opt/ros/humble/lib/librmw.so
 twist_relay: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so
 twist_relay: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so

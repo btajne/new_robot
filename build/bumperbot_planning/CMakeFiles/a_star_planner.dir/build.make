@@ -374,7 +374,7 @@ liba_star_planner.so: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_c.so
 liba_star_planner.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so
 liba_star_planner.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_cpp.so
 liba_star_planner.so: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_cpp.so
-liba_star_planner.so: /opt/ros/humble/lib/libfastcdr.so.1.0.24
+liba_star_planner.so: /opt/ros/humble/lib/libfastcdr.so.1.0.29
 liba_star_planner.so: /opt/ros/humble/lib/librmw.so
 liba_star_planner.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so
 liba_star_planner.so: /opt/ros/humble/lib/librosidl_typesupport_introspection_cpp.so

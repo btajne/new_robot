@@ -146,7 +146,7 @@ simple_lifecycle_node: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesup
 simple_lifecycle_node: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_c.so
 simple_lifecycle_node: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_cpp.so
 simple_lifecycle_node: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_cpp.so
-simple_lifecycle_node: /opt/ros/humble/lib/libfastcdr.so.1.0.24
+simple_lifecycle_node: /opt/ros/humble/lib/libfastcdr.so.1.0.29
 simple_lifecycle_node: /opt/ros/humble/lib/librmw.so
 simple_lifecycle_node: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so
 simple_lifecycle_node: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so

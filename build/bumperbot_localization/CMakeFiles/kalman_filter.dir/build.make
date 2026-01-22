@@ -147,7 +147,7 @@ kalman_filter: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_fastrtps
 kalman_filter: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_cpp.so
 kalman_filter: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_cpp.so
 kalman_filter: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_cpp.so
-kalman_filter: /opt/ros/humble/lib/libfastcdr.so.1.0.24
+kalman_filter: /opt/ros/humble/lib/libfastcdr.so.1.0.29
 kalman_filter: /opt/ros/humble/lib/librmw.so
 kalman_filter: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_introspection_c.so
 kalman_filter: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_c.so

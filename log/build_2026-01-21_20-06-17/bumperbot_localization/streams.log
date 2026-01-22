@@ -1,0 +1,119 @@
+[0.087s] Invoking command in '/home/aarambh/my_robot_ws/build/bumperbot_localization': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/aarambh/my_robot_ws/src/bumperbot_localization -DCMAKE_INSTALL_PREFIX=/home/aarambh/my_robot_ws/install/bumperbot_localization
+[0.645s] -- The C compiler identification is GNU 11.4.0
+[1.356s] -- The CXX compiler identification is GNU 11.4.0
+[1.487s] -- Detecting C compiler ABI info
+[2.312s] -- Detecting C compiler ABI info - done
+[2.379s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.381s] -- Detecting C compile features
+[2.383s] -- Detecting C compile features - done
+[2.398s] -- Detecting CXX compiler ABI info
+[4.864s] -- Detecting CXX compiler ABI info - done
+[4.934s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.945s] -- Detecting CXX compile features
+[4.949s] -- Detecting CXX compile features - done
+[5.133s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[8.247s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[10.483s] -- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)
+[11.737s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[11.848s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[12.025s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[12.303s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[12.676s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[13.804s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[13.897s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[15.480s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[15.825s] -- Found FastRTPS: /opt/ros/humble/include  
+[16.580s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[16.957s] -- Looking for pthread.h
+[17.909s] -- Looking for pthread.h - found
+[17.912s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[18.954s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[18.969s] -- Found Threads: TRUE  
+[19.863s] -- Found rclpy: 3.3.19 (/opt/ros/humble/share/rclpy/cmake)
+[19.892s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[20.183s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[20.508s] -- Found tf2: 0.25.18 (/opt/ros/humble/share/tf2/cmake)
+[22.979s] -- Configuring done
+[23.316s] -- Generating done
+[23.422s] -- Build files have been written to: /home/aarambh/my_robot_ws/build/bumperbot_localization
+[23.540s] Invoked command in '/home/aarambh/my_robot_ws/build/bumperbot_localization' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/aarambh/my_robot_ws/src/bumperbot_localization -DCMAKE_INSTALL_PREFIX=/home/aarambh/my_robot_ws/install/bumperbot_localization
+[23.543s] Invoking command in '/home/aarambh/my_robot_ws/build/bumperbot_localization': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/aarambh/my_robot_ws/build/bumperbot_localization -- -j4 -l4
+[23.954s] [ 16%] [32mBuilding CXX object CMakeFiles/kalman_filter.dir/src/kalman_filter.cpp.o[0m
+[125.000s] [ 33%] [32m[1mLinking CXX executable kalman_filter[0m
+[127.968s] [ 33%] Built target kalman_filter
+[128.111s] [ 33%] Built target ament_cmake_python_copy_bumperbot_localization
+[128.211s] [ 50%] [32mBuilding CXX object CMakeFiles/odometry_motion_model.dir/src/odometry_motion_model.cpp.o[0m
+[183.411s] [ 66%] [32m[1mLinking CXX executable odometry_motion_model[0m
+[185.663s] [ 66%] Built target odometry_motion_model
+[187.837s] running egg_info
+[187.841s] creating bumperbot_localization.egg-info
+[187.843s] writing bumperbot_localization.egg-info/PKG-INFO
+[187.844s] writing dependency_links to bumperbot_localization.egg-info/dependency_links.txt
+[187.846s] writing top-level names to bumperbot_localization.egg-info/top_level.txt
+[187.848s] writing manifest file 'bumperbot_localization.egg-info/SOURCES.txt'
+[187.862s] reading manifest file 'bumperbot_localization.egg-info/SOURCES.txt'
+[187.866s] writing manifest file 'bumperbot_localization.egg-info/SOURCES.txt'
+[188.059s] [ 66%] Built target ament_cmake_python_build_bumperbot_localization_egg
+[188.168s] [ 83%] [32mBuilding CXX object CMakeFiles/imu_republisher.dir/src/imu_republisher.cpp.o[0m
+[238.137s] [100%] [32m[1mLinking CXX executable imu_republisher[0m
+[240.658s] [100%] Built target imu_republisher
+[240.710s] Invoked command in '/home/aarambh/my_robot_ws/build/bumperbot_localization' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/aarambh/my_robot_ws/build/bumperbot_localization -- -j4 -l4
+[240.720s] Invoking command in '/home/aarambh/my_robot_ws/build/bumperbot_localization': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/aarambh/my_robot_ws/build/bumperbot_localization
+[240.756s] -- Install configuration: ""
+[240.757s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_localization/share/bumperbot_localization/environment/pythonpath.sh
+[240.759s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_localization/share/bumperbot_localization/environment/pythonpath.dsv
+[240.761s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_localization/local/lib/python3.10/dist-packages/bumperbot_localization-0.0.0-py3.10.egg-info
+[240.762s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_localization/local/lib/python3.10/dist-packages/bumperbot_localization-0.0.0-py3.10.egg-info/PKG-INFO
+[240.764s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_localization/local/lib/python3.10/dist-packages/bumperbot_localization-0.0.0-py3.10.egg-info/top_level.txt
+[240.765s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_localization/local/lib/python3.10/dist-packages/bumperbot_localization-0.0.0-py3.10.egg-info/dependency_links.txt
+[240.767s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_localization/local/lib/python3.10/dist-packages/bumperbot_localization-0.0.0-py3.10.egg-info/SOURCES.txt
+[240.769s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_localization/local/lib/python3.10/dist-packages/bumperbot_localization
+[240.770s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_localization/local/lib/python3.10/dist-packages/bumperbot_localization/odometry_motion_model.py
+[240.772s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_localization/local/lib/python3.10/dist-packages/bumperbot_localization/kalman_filter.py
+[240.774s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_localization/local/lib/python3.10/dist-packages/bumperbot_localization/__init__.py
+[240.775s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_localization/local/lib/python3.10/dist-packages/bumperbot_localization/imu_republisher.py
+[241.006s] Listing '/home/aarambh/my_robot_ws/install/bumperbot_localization/local/lib/python3.10/dist-packages/bumperbot_localization'...
+[241.008s] Compiling '/home/aarambh/my_robot_ws/install/bumperbot_localization/local/lib/python3.10/dist-packages/bumperbot_localization/__init__.py'...
+[241.009s] Compiling '/home/aarambh/my_robot_ws/install/bumperbot_localization/local/lib/python3.10/dist-packages/bumperbot_localization/imu_republisher.py'...
+[241.011s] Compiling '/home/aarambh/my_robot_ws/install/bumperbot_localization/local/lib/python3.10/dist-packages/bumperbot_localization/kalman_filter.py'...
+[241.012s] Compiling '/home/aarambh/my_robot_ws/install/bumperbot_localization/local/lib/python3.10/dist-packages/bumperbot_localization/odometry_motion_model.py'...
+[241.051s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_localization/include/include
+[241.052s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_localization/include/include/bumperbot_localization
+[241.053s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_localization/include/include/bumperbot_localization/kalman_filter.hpp
+[241.054s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_localization/include/include/bumperbot_localization/odometry_motion_model.hpp
+[241.056s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_localization/bin/odometry_motion_model
+[241.088s] -- Set runtime path of "/home/aarambh/my_robot_ws/install/bumperbot_localization/bin/odometry_motion_model" to ""
+[241.090s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_localization/lib/bumperbot_localization/kalman_filter
+[241.135s] -- Set runtime path of "/home/aarambh/my_robot_ws/install/bumperbot_localization/lib/bumperbot_localization/kalman_filter" to ""
+[241.136s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_localization/lib/bumperbot_localization/imu_republisher
+[241.168s] -- Set runtime path of "/home/aarambh/my_robot_ws/install/bumperbot_localization/lib/bumperbot_localization/imu_republisher" to ""
+[241.168s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_localization/lib/bumperbot_localization/odometry_motion_model
+[241.201s] -- Set runtime path of "/home/aarambh/my_robot_ws/install/bumperbot_localization/lib/bumperbot_localization/odometry_motion_model" to ""
+[241.202s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_localization/share/bumperbot_localization/launch
+[241.203s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_localization/share/bumperbot_localization/launch/local_localization.launch.py
+[241.209s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_localization/share/bumperbot_localization/launch/global_localization.launch.py
+[241.214s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_localization/share/bumperbot_localization/config
+[241.219s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_localization/share/bumperbot_localization/config/ekf.yaml
+[241.223s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_localization/share/bumperbot_localization/config/odometry_motion_model.rviz
+[241.226s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_localization/share/bumperbot_localization/config/amcl.yaml
+[241.231s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_localization/share/bumperbot_localization/rviz
+[241.233s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_localization/share/bumperbot_localization/rviz/global_localization.rviz
+[241.241s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_localization/lib/bumperbot_localization/kalman_filter.py
+[241.246s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_localization/lib/bumperbot_localization/imu_republisher.py
+[241.250s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_localization/lib/bumperbot_localization/odometry_motion_model.py
+[241.253s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_localization/share/ament_index/resource_index/package_run_dependencies/bumperbot_localization
+[241.256s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_localization/share/ament_index/resource_index/parent_prefix_path/bumperbot_localization
+[241.260s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_localization/share/bumperbot_localization/environment/ament_prefix_path.sh
+[241.261s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_localization/share/bumperbot_localization/environment/ament_prefix_path.dsv
+[241.266s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_localization/share/bumperbot_localization/environment/path.sh
+[241.271s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_localization/share/bumperbot_localization/environment/path.dsv
+[241.275s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_localization/share/bumperbot_localization/local_setup.bash
+[241.280s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_localization/share/bumperbot_localization/local_setup.sh
+[241.281s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_localization/share/bumperbot_localization/local_setup.zsh
+[241.282s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_localization/share/bumperbot_localization/local_setup.dsv
+[241.284s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_localization/share/bumperbot_localization/package.dsv
+[241.298s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_localization/share/ament_index/resource_index/packages/bumperbot_localization
+[241.299s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_localization/share/bumperbot_localization/cmake/bumperbot_localizationConfig.cmake
+[241.302s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_localization/share/bumperbot_localization/cmake/bumperbot_localizationConfig-version.cmake
+[241.306s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_localization/share/bumperbot_localization/package.xml
+[241.310s] Invoked command in '/home/aarambh/my_robot_ws/build/bumperbot_localization' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/aarambh/my_robot_ws/build/bumperbot_localization

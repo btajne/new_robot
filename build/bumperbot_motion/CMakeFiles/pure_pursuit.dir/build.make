@@ -374,7 +374,7 @@ libpure_pursuit.so: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_c.so
 libpure_pursuit.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so
 libpure_pursuit.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_cpp.so
 libpure_pursuit.so: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_cpp.so
-libpure_pursuit.so: /opt/ros/humble/lib/libfastcdr.so.1.0.24
+libpure_pursuit.so: /opt/ros/humble/lib/libfastcdr.so.1.0.29
 libpure_pursuit.so: /opt/ros/humble/lib/librmw.so
 libpure_pursuit.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so
 libpure_pursuit.so: /opt/ros/humble/lib/librosidl_typesupport_introspection_cpp.so

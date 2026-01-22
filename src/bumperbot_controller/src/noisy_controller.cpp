@@ -14,8 +14,8 @@ NoisyController::NoisyController(const std::string& name)
                                   , y_(0.0)
                                   , theta_(0.0)
 {
-    declare_parameter("wheel_radius", 0.033);
-    declare_parameter("wheel_separation", 0.17);
+    declare_parameter("wheel_radius", 0.035);
+    declare_parameter("wheel_separation", 0.26);
     wheel_radius_ = get_parameter("wheel_radius").as_double();
     wheel_separation_ = get_parameter("wheel_separation").as_double();
     RCLCPP_INFO_STREAM(get_logger(), "Using wheel radius " << wheel_radius_);
