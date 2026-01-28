@@ -1,0 +1,62 @@
+[0.124s] Invoking command in '/home/aarambh/my_robot_ws/build/bumperbot_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aarambh/my_robot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/aarambh/my_robot_ws/build/bumperbot_firmware -- -j4 -l4
+[0.829s] [  0%] Built target ament_cmake_python_copy_bumperbot_firmware
+[0.846s] [ 33%] Built target bumperbot_firmware
+[0.892s] [ 66%] Built target simple_serial_transmitter
+[0.898s] [100%] Built target simple_serial_receiver
+[3.298s] running egg_info
+[3.303s] writing bumperbot_firmware.egg-info/PKG-INFO
+[3.305s] writing dependency_links to bumperbot_firmware.egg-info/dependency_links.txt
+[3.307s] writing top-level names to bumperbot_firmware.egg-info/top_level.txt
+[3.323s] reading manifest file 'bumperbot_firmware.egg-info/SOURCES.txt'
+[3.328s] writing manifest file 'bumperbot_firmware.egg-info/SOURCES.txt'
+[3.540s] [100%] Built target ament_cmake_python_build_bumperbot_firmware_egg
+[3.762s] Invoked command in '/home/aarambh/my_robot_ws/build/bumperbot_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aarambh/my_robot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/aarambh/my_robot_ws/build/bumperbot_firmware -- -j4 -l4
+[3.773s] Invoking command in '/home/aarambh/my_robot_ws/build/bumperbot_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aarambh/my_robot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/aarambh/my_robot_ws/build/bumperbot_firmware
+[3.812s] -- Install configuration: ""
+[3.813s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/pythonpath.sh
+[3.814s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/pythonpath.dsv
+[3.814s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware-0.0.0-py3.10.egg-info
+[3.815s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware-0.0.0-py3.10.egg-info/PKG-INFO
+[3.816s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware-0.0.0-py3.10.egg-info/top_level.txt
+[3.818s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware-0.0.0-py3.10.egg-info/dependency_links.txt
+[3.819s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware-0.0.0-py3.10.egg-info/SOURCES.txt
+[3.821s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware
+[3.822s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware/simple_serial_receiver.py
+[3.823s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware/__init__.py
+[3.823s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware/simple_serial_transmitter.py
+[3.824s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware/mpu6050_driver.py
+[4.062s] Listing '/home/aarambh/my_robot_ws/install/bumperbot_firmware/local/lib/python3.10/dist-packages/bumperbot_firmware'...
+[4.124s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_firmware/share/bumperbot_firmware/bumperbot_interface.xml
+[4.125s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_firmware/lib/libbumperbot_firmware.so
+[4.125s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_firmware/include/include
+[4.126s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_firmware/include/include/bumperbot_firmware
+[4.126s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_firmware/include/include/bumperbot_firmware/bumperbot_interface.hpp
+[4.127s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_firmware/share/bumperbot_firmware/launch
+[4.127s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_firmware/share/bumperbot_firmware/launch/hardware_interface.launch.py
+[4.128s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_firmware/lib/bumperbot_firmware/simple_serial_transmitter.py
+[4.136s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_firmware/lib/bumperbot_firmware/simple_serial_receiver.py
+[4.137s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_firmware/lib/bumperbot_firmware/mpu6050_driver.py
+[4.138s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_firmware/lib/bumperbot_firmware/simple_serial_receiver
+[4.138s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_firmware/lib/bumperbot_firmware/simple_serial_transmitter
+[4.139s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/library_path.sh
+[4.139s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/library_path.dsv
+[4.140s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_firmware/share/ament_index/resource_index/package_run_dependencies/bumperbot_firmware
+[4.140s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_firmware/share/ament_index/resource_index/parent_prefix_path/bumperbot_firmware
+[4.141s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/ament_prefix_path.sh
+[4.141s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/ament_prefix_path.dsv
+[4.142s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/path.sh
+[4.142s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_firmware/share/bumperbot_firmware/environment/path.dsv
+[4.143s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_firmware/share/bumperbot_firmware/local_setup.bash
+[4.143s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_firmware/share/bumperbot_firmware/local_setup.sh
+[4.157s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_firmware/share/bumperbot_firmware/local_setup.zsh
+[4.157s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_firmware/share/bumperbot_firmware/local_setup.dsv
+[4.158s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_firmware/share/bumperbot_firmware/package.dsv
+[4.158s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_firmware/share/ament_index/resource_index/packages/bumperbot_firmware
+[4.158s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_firmware/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/bumperbot_firmware
+[4.159s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_firmware/share/bumperbot_firmware/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.159s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_firmware/share/bumperbot_firmware/cmake/ament_cmake_export_libraries-extras.cmake
+[4.159s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_firmware/share/bumperbot_firmware/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.160s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_firmware/share/bumperbot_firmware/cmake/bumperbot_firmwareConfig.cmake
+[4.160s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_firmware/share/bumperbot_firmware/cmake/bumperbot_firmwareConfig-version.cmake
+[4.166s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_firmware/share/bumperbot_firmware/package.xml
+[4.167s] Invoked command in '/home/aarambh/my_robot_ws/build/bumperbot_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/aarambh/my_robot_ws/install/bumperbot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/aarambh/my_robot_ws/build/bumperbot_firmware

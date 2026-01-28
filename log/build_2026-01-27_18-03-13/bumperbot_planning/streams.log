@@ -1,0 +1,58 @@
+[0.179s] Invoking command in '/home/aarambh/my_robot_ws/build/bumperbot_planning': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/aarambh/my_robot_ws/build/bumperbot_planning -- -j4 -l4
+[0.653s] [  0%] Built target ament_cmake_python_copy_bumperbot_planning
+[0.675s] [ 50%] Built target dijkstra_planner
+[0.708s] [100%] Built target a_star_planner
+[2.615s] running egg_info
+[2.621s] writing bumperbot_planning.egg-info/PKG-INFO
+[2.622s] writing dependency_links to bumperbot_planning.egg-info/dependency_links.txt
+[2.624s] writing top-level names to bumperbot_planning.egg-info/top_level.txt
+[2.637s] reading manifest file 'bumperbot_planning.egg-info/SOURCES.txt'
+[2.640s] writing manifest file 'bumperbot_planning.egg-info/SOURCES.txt'
+[2.863s] [100%] Built target ament_cmake_python_build_bumperbot_planning_egg
+[2.933s] Invoked command in '/home/aarambh/my_robot_ws/build/bumperbot_planning' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/aarambh/my_robot_ws/build/bumperbot_planning -- -j4 -l4
+[2.943s] Invoking command in '/home/aarambh/my_robot_ws/build/bumperbot_planning': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/aarambh/my_robot_ws/build/bumperbot_planning
+[2.983s] -- Install configuration: ""
+[2.984s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_planning/share/bumperbot_planning/environment/pythonpath.sh
+[2.984s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_planning/share/bumperbot_planning/environment/pythonpath.dsv
+[2.985s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_planning/local/lib/python3.10/dist-packages/bumperbot_planning-0.0.0-py3.10.egg-info
+[2.986s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_planning/local/lib/python3.10/dist-packages/bumperbot_planning-0.0.0-py3.10.egg-info/PKG-INFO
+[2.987s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_planning/local/lib/python3.10/dist-packages/bumperbot_planning-0.0.0-py3.10.egg-info/top_level.txt
+[2.989s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_planning/local/lib/python3.10/dist-packages/bumperbot_planning-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.990s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_planning/local/lib/python3.10/dist-packages/bumperbot_planning-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.993s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_planning/local/lib/python3.10/dist-packages/bumperbot_planning
+[2.994s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_planning/local/lib/python3.10/dist-packages/bumperbot_planning/__init__.py
+[2.994s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_planning/local/lib/python3.10/dist-packages/bumperbot_planning/dijkstra_planner.py
+[2.995s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_planning/local/lib/python3.10/dist-packages/bumperbot_planning/a_star_planner.py
+[3.201s] Listing '/home/aarambh/my_robot_ws/install/bumperbot_planning/local/lib/python3.10/dist-packages/bumperbot_planning'...
+[3.237s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_planning/share/bumperbot_planning/global_planner_plugins.xml
+[3.238s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_planning/lib/libdijkstra_planner.so
+[3.244s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_planning/lib/liba_star_planner.so
+[3.249s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_planning/include/include
+[3.250s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_planning/include/include/bumperbot_planning
+[3.252s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_planning/include/include/bumperbot_planning/a_star_planner.hpp
+[3.253s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_planning/include/include/bumperbot_planning/dijkstra_planner.hpp
+[3.255s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_planning/share/bumperbot_planning/global_planner_plugins.xml
+[3.257s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_planning/lib/bumperbot_planning/a_star_planner.py
+[3.258s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_planning/lib/bumperbot_planning/dijkstra_planner.py
+[3.259s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_planning/share/bumperbot_planning/environment/library_path.sh
+[3.260s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_planning/share/bumperbot_planning/environment/library_path.dsv
+[3.263s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_planning/share/ament_index/resource_index/package_run_dependencies/bumperbot_planning
+[3.264s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_planning/share/ament_index/resource_index/parent_prefix_path/bumperbot_planning
+[3.265s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_planning/share/bumperbot_planning/environment/ament_prefix_path.sh
+[3.267s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_planning/share/bumperbot_planning/environment/ament_prefix_path.dsv
+[3.269s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_planning/share/bumperbot_planning/environment/path.sh
+[3.269s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_planning/share/bumperbot_planning/environment/path.dsv
+[3.273s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_planning/share/bumperbot_planning/local_setup.bash
+[3.274s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_planning/share/bumperbot_planning/local_setup.sh
+[3.278s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_planning/share/bumperbot_planning/local_setup.zsh
+[3.282s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_planning/share/bumperbot_planning/local_setup.dsv
+[3.289s] -- Installing: /home/aarambh/my_robot_ws/install/bumperbot_planning/share/bumperbot_planning/package.dsv
+[3.289s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_planning/share/ament_index/resource_index/packages/bumperbot_planning
+[3.290s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_planning/share/ament_index/resource_index/nav2_core__pluginlib__plugin/bumperbot_planning
+[3.291s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_planning/share/bumperbot_planning/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.294s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_planning/share/bumperbot_planning/cmake/ament_cmake_export_libraries-extras.cmake
+[3.296s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_planning/share/bumperbot_planning/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.297s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_planning/share/bumperbot_planning/cmake/bumperbot_planningConfig.cmake
+[3.298s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_planning/share/bumperbot_planning/cmake/bumperbot_planningConfig-version.cmake
+[3.300s] -- Up-to-date: /home/aarambh/my_robot_ws/install/bumperbot_planning/share/bumperbot_planning/package.xml
+[3.326s] Invoked command in '/home/aarambh/my_robot_ws/build/bumperbot_planning' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/aarambh/my_robot_ws/build/bumperbot_planning

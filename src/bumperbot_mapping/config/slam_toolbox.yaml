@@ -24,12 +24,12 @@ slam_toolbox:
     # =====================
     # Timing & Publishing
     # =====================
-    throttle_scans: 3
+    throttle_scans: 1
     transform_publish_period: 0.05
-    map_update_interval: 0.5
+    map_update_interval: 1.0
     minimum_time_interval: 0.1
-    transform_timeout: 0.2
-    tf_buffer_duration: 30.0
+    transform_timeout: 0.5
+    tf_buffer_duration: 60.0
 
     # =====================
     # Map Properties
@@ -43,22 +43,24 @@ slam_toolbox:
     # =====================
     # Motion Thresholds
     # =====================
-    minimum_travel_distance: 0.05
-    minimum_travel_heading: 0.08
+    minimum_travel_distance: 0.03
+    minimum_travel_heading: 0.05
 
     # =====================
     # Scan Handling
     # =====================
     use_scan_matching: true
-    use_scan_barycenter: false
-    scan_queue_size: 5
-    scan_buffer_size: 10
+    use_scan_barycenter: true
+    scan_queue_size: 20
+
+
+    scan_buffer_size: 20
     scan_buffer_maximum_scan_distance: 2.5
 
     # =====================
     # Loop Closure
     # =====================
-    do_loop_closing: true
+    do_loop_closing: false
     loop_search_maximum_distance: 2.0
     loop_match_minimum_chain_size: 10
     loop_match_maximum_variance_coarse: 3.0

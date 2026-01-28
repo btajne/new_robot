@@ -23,10 +23,11 @@ bumperbot_controller:
     pose_covariance_diagonal : [0.001, 0.001, 1.0e-3, 1.0e-3, 1.0e-3, 0.01]
     twist_covariance_diagonal: [0.001, 0.001, 1.0e-3, 1.0e-3, 1.0e-3, 0.01]
 
-    wheel_separation : 0.2601
-    wheel_radius : 0.03501
+    wheel_separation : 0.2498
+    wheel_radius : 0.035
 
-    wheel_separation_multiplier: 1.02
+    wheel_separation_multiplier: 0.83
+
     left_wheel_radius_multiplier: 1.0
     right_wheel_radius_multiplier: 1.0
 
@@ -50,8 +51,8 @@ bumperbot_controller:
     linear:
       x:
         has_velocity_limits    : true
-        max_velocity           : 0.25  # m/s
-        min_velocity           : -0.25 # m/s
+        max_velocity           : 0.15  # m/s
+        min_velocity           : -0.15 # m/s
         has_acceleration_limits: true
         max_acceleration       : 0.3  # m/s^2
         min_acceleration       : -0.3 # m/s^2
@@ -60,11 +61,11 @@ bumperbot_controller:
     angular:
       z:
         has_velocity_limits    : true
-        max_velocity           : 0.8 # rad/s
-        min_velocity           : -0.8  # rad/s
+        max_velocity           : 0.18 # rad/s
+        min_velocity           : -0.18  # rad/s
         has_acceleration_limits: true
-        max_acceleration       : 1.0  # rad/s^2
-        min_acceleration       : -1.0   # rad/s^2
+        max_acceleration       : 0.25 # rad/s^2
+        min_acceleration       : -0.25   # rad/s^2
         has_jerk_limits        : false
         max_jerk               : 2.5  # rad/s^3
 
