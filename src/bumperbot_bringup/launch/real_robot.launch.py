@@ -1,4 +1,5 @@
 import os
+
 from launch import LaunchDescription
 from launch.actions import (
     IncludeLaunchDescription,
@@ -7,6 +8,8 @@ from launch.actions import (
 )
 from launch.conditions import IfCondition, UnlessCondition
 from launch.substitutions import LaunchConfiguration
+from launch.launch_description_sources import PythonLaunchDescriptionSource
+
 from launch_ros.actions import Node
 from ament_index_python.packages import get_package_share_directory
 
@@ -24,11 +27,13 @@ def generate_launch_description():
     # Hardware Interface
     # ------------------------------------------------
     hardware_interface = IncludeLaunchDescription(
-        os.path.join(
-            get_package_share_directory("bumperbot_firmware"),
-            "launch",
-            "hardware_interface.launch.py"
-        ),
+        PythonLaunchDescriptionSource(
+            os.path.join(
+                get_package_share_directory("bumperbot_firmware"),
+                "launch",
+                "hardware_interface.launch.py"
+            )
+        )
     )
 
     # ------------------------------------------------
@@ -38,24 +43,28 @@ def generate_launch_description():
         package="rplidar_ros",
         executable="rplidar_node",
         name="rplidar_node",
-        parameters=[os.path.join(
-            get_package_share_directory("bumperbot_bringup"),
-            "config",
-            "rplidar_a1.yaml"
-        )],
+        parameters=[
+            os.path.join(
+                get_package_share_directory("bumperbot_bringup"),
+                "config",
+                "rplidar_a1.yaml"
+            )
+        ],
         output="screen",
-        respawn=True,          # <<< VERY IMPORTANT
-        respawn_delay=2.0      # <<< auto recovery
+        respawn=True,
+        respawn_delay=2.0
     )
 
     # ------------------------------------------------
     # Controller
     # ------------------------------------------------
     controller = IncludeLaunchDescription(
-        os.path.join(
-            get_package_share_directory("bumperbot_controller"),
-            "launch",
-            "controller.launch.py"
+        PythonLaunchDescriptionSource(
+            os.path.join(
+                get_package_share_directory("bumperbot_controller"),
+                "launch",
+                "controller.launch.py"
+            )
         ),
         launch_arguments={
             "use_simple_controller": "False",
@@ -67,14 +76,16 @@ def generate_launch_description():
     # Joystick
     # ------------------------------------------------
     joystick = IncludeLaunchDescription(
-        os.path.join(
-            get_package_share_directory("bumperbot_controller"),
-            "launch",
-            "joystick_teleop.launch.py"
+        PythonLaunchDescriptionSource(
+            os.path.join(
+                get_package_share_directory("bumperbot_controller"),
+                "launch",
+                "joystick_teleop.launch.py"
+            )
         ),
         launch_arguments={
             "use_sim_time": "False"
-        }.items()
+        }.items(),
     )
 
     # ------------------------------------------------
@@ -90,44 +101,50 @@ def generate_launch_description():
     # Localization (NO SLAM)
     # ------------------------------------------------
     localization = IncludeLaunchDescription(
-        os.path.join(
-            get_package_share_directory("bumperbot_localization"),
-            "launch",
-            "global_localization.launch.py"
+        PythonLaunchDescriptionSource(
+            os.path.join(
+                get_package_share_directory("bumperbot_localization"),
+                "launch",
+                "global_localization.launch.py"
+            )
         ),
         condition=UnlessCondition(use_slam)
     )
 
     # ------------------------------------------------
-    # SLAM (DELAYED – waits for stable /scan)
+    # SLAM (DELAYED)
     # ------------------------------------------------
     slam = IncludeLaunchDescription(
-        os.path.join(
-            get_package_share_directory("bumperbot_mapping"),
-            "launch",
-            "slam.launch.py"
+        PythonLaunchDescriptionSource(
+            os.path.join(
+                get_package_share_directory("bumperbot_mapping"),
+                "launch",
+                "slam.launch.py"
+            )
         ),
         condition=IfCondition(use_slam)
     )
 
     slam_delayed = TimerAction(
-        period=6.0,     # real robot safe delay
+        period=6.0,
         actions=[slam]
     )
 
     # ------------------------------------------------
-    # Navigation (DELAYED MORE – waits for /map)
+    # Navigation (DELAYED MORE)
     # ------------------------------------------------
     navigation = IncludeLaunchDescription(
-        os.path.join(
-            get_package_share_directory("bumperbot_navigation"),
-            "launch",
-            "navigation.launch.py"
-        ),
+        PythonLaunchDescriptionSource(
+            os.path.join(
+                get_package_share_directory("bumperbot_navigation"),
+                "launch",
+                "navigation.launch.py"
+            )
+        )
     )
 
     navigation_delayed = TimerAction(
-        period=12.0,    # prevents infinite waiting
+        period=12.0,
         actions=[navigation]
     )
 
@@ -136,13 +153,11 @@ def generate_launch_description():
     # ------------------------------------------------
     return LaunchDescription([
         use_slam_arg,
-
         hardware_interface,
         laser_driver,
         controller,
         joystick,
         imu_driver_node,
-
         localization,
         slam_delayed,
         navigation_delayed,

@@ -32,7 +32,7 @@ def generate_launch_description():
     )
 
     # ------------------------------------------------
-    # RPLidar (RESPAWN ENABLED)
+    # RPLidar
     # ------------------------------------------------
     laser_driver = Node(
         package="rplidar_ros",
@@ -44,8 +44,8 @@ def generate_launch_description():
             "rplidar_a1.yaml"
         )],
         output="screen",
-        respawn=True,          # <<< VERY IMPORTANT
-        respawn_delay=2.0      # <<< auto recovery
+        respawn=True,
+        respawn_delay=2.0
     )
 
     # ------------------------------------------------
@@ -87,7 +87,7 @@ def generate_launch_description():
     )
 
     # ------------------------------------------------
-    # Localization (NO SLAM)
+    # Localization (Map + AMCL)
     # ------------------------------------------------
     localization = IncludeLaunchDescription(
         os.path.join(
@@ -99,7 +99,7 @@ def generate_launch_description():
     )
 
     # ------------------------------------------------
-    # SLAM (DELAYED – waits for stable /scan)
+    # SLAM
     # ------------------------------------------------
     slam = IncludeLaunchDescription(
         os.path.join(
@@ -111,12 +111,12 @@ def generate_launch_description():
     )
 
     slam_delayed = TimerAction(
-        period=6.0,     # real robot safe delay
+        period=6.0,
         actions=[slam]
     )
 
     # ------------------------------------------------
-    # Navigation (DELAYED MORE – waits for /map)
+    # Navigation
     # ------------------------------------------------
     navigation = IncludeLaunchDescription(
         os.path.join(
@@ -127,8 +127,24 @@ def generate_launch_description():
     )
 
     navigation_delayed = TimerAction(
-        period=12.0,    # prevents infinite waiting
+        period=15.0,   # slightly more delay for safety
         actions=[navigation]
+    )
+
+    # ------------------------------------------------
+    # Lifecycle Manager for Localization (THIS WAS MISSING)
+    # ------------------------------------------------
+    lifecycle_manager_localization = Node(
+        package='nav2_lifecycle_manager',
+        executable='lifecycle_manager',
+        name='lifecycle_manager_localization',
+        output='screen',
+        parameters=[{
+            'use_sim_time': False,
+            'autostart': True,
+            'node_names': ['map_server', 'amcl']
+        }],
+        condition=UnlessCondition(use_slam)
     )
 
     # ------------------------------------------------
@@ -144,6 +160,8 @@ def generate_launch_description():
         imu_driver_node,
 
         localization,
+        lifecycle_manager_localization,   # ✅ added
+
         slam_delayed,
         navigation_delayed,
     ])
