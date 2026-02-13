@@ -13,11 +13,20 @@ from ament_index_python.packages import get_package_share_directory
 
 def generate_launch_description():
 
+    # -------------------------
+    # Launch Arguments
+    # -------------------------
     use_slam = LaunchConfiguration("use_slam")
+    map_name = LaunchConfiguration("map_name")
 
     use_slam_arg = DeclareLaunchArgument(
         "use_slam",
         default_value="false"
+    )
+
+    map_name_arg = DeclareLaunchArgument(
+        "map_name",
+        default_value="my_map.yaml"   # change if needed
     )
 
     # ------------------------------------------------
@@ -95,6 +104,25 @@ def generate_launch_description():
             "launch",
             "global_localization.launch.py"
         ),
+        launch_arguments={
+            "map": map_name
+        }.items(),
+        condition=UnlessCondition(use_slam)
+    )
+
+    # ------------------------------------------------
+    # Lifecycle Manager for Localization
+    # ------------------------------------------------
+    lifecycle_manager_localization = Node(
+        package='nav2_lifecycle_manager',
+        executable='lifecycle_manager',
+        name='lifecycle_manager_localization',
+        output='screen',
+        parameters=[{
+            'use_sim_time': False,
+            'autostart': True,
+            'node_names': ['map_server', 'amcl']
+        }],
         condition=UnlessCondition(use_slam)
     )
 
@@ -127,24 +155,8 @@ def generate_launch_description():
     )
 
     navigation_delayed = TimerAction(
-        period=15.0,   # slightly more delay for safety
+        period=15.0,
         actions=[navigation]
-    )
-
-    # ------------------------------------------------
-    # Lifecycle Manager for Localization (THIS WAS MISSING)
-    # ------------------------------------------------
-    lifecycle_manager_localization = Node(
-        package='nav2_lifecycle_manager',
-        executable='lifecycle_manager',
-        name='lifecycle_manager_localization',
-        output='screen',
-        parameters=[{
-            'use_sim_time': False,
-            'autostart': True,
-            'node_names': ['map_server', 'amcl']
-        }],
-        condition=UnlessCondition(use_slam)
     )
 
     # ------------------------------------------------
@@ -152,6 +164,7 @@ def generate_launch_description():
     # ------------------------------------------------
     return LaunchDescription([
         use_slam_arg,
+        map_name_arg,
 
         hardware_interface,
         laser_driver,
@@ -160,7 +173,7 @@ def generate_launch_description():
         imu_driver_node,
 
         localization,
-        lifecycle_manager_localization,   # ✅ added
+        lifecycle_manager_localization,
 
         slam_delayed,
         navigation_delayed,
